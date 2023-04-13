@@ -1,11 +1,25 @@
 .buttom_menu {
     padding: 13px 24px;
-    color: white;
+    color: white !important;
     font-weight: 600;
-    background-color: #681319;
+    background-color: #681319 !important;
     border-radius: 6px;
     font-size: 15px;
+    transition: 1s;
+    cursor: pointer;
 }
+
+.buttom_menu_idiomas{
+    padding: 13px 24px;
+    color: #681319 !important;
+    font-weight: 600;
+    background-color: #FFFFFF !important;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: 1s;
+    cursor: pointer;
+}
+
 .navigation {
     padding: 0px !important;
 }
@@ -15,7 +29,13 @@
 }
 
 .buttom_menu:hover {
-    background-color: #C1272D;
+    background-color: #C1272D !important;
+    transition: 1s;
+}
+.buttom_menu_idiomas:hover {
+    background-color: #C1272D !important;
+    color: #FFFFFF !important;
+    transition: 1s;
 }
 
 .general {
@@ -46,6 +66,43 @@
     border-radius: 50px;
     padding: 5px;
     margin-left: 10px;
+    transition: 1s;
+    cursor: pointer;
+}
+.social_network i:hover{
+    color: #FFFFFF;
+    background-color: #C1272D;
+    transition: 1s;
+}
+
+.social_network_idiomas {
+    padding: 5px;
+}
+
+.social_network_idiomas i{
+    cursor: pointer;
+    color: #681319;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    padding: 5px;
+    margin-left: 10px;
+    transition: 1s;
+}
+.social_network_idiomas i:hover{
+    color: #FFFFFF;
+    background-color: #C1272D;
+    transition: 1s;
+}
+
+.active {
+    background-color: #C1272D;
+    color: #FFFFFF;
+    padding: 13px 24px;
+    font-weight: 600;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: 1s;
+    cursor: pointer;
 }
 
 @media (max-width: 1022px) {
@@ -131,5 +188,5 @@
     .general{
         gap: 12px;
     }
-    
+
 }
