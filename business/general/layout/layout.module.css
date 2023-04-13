@@ -1,0 +1,18 @@
+.container{
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.content_view{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 15px 15px 0 0;
+    max-width: 90%;
+    background-color: #f2ebe1;
+    width: 960px;
+    border: 4px solid #FFFF;
+}
