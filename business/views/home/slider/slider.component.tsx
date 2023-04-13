@@ -51,7 +51,7 @@ export default function SliderComments() {
     <>
       <div className={styles.general}>
         <div className={styles.grid}>
-          <h2>TITLE BACKGROUND</h2>
+          <h2>Testimonios académicos</h2>
           <div className={styles.content_slider}>
             <div className={styles.prev_btn}>
               <a type="button" onClick={() => swiperRef.current?.slidePrev()}>

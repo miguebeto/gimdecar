@@ -22,8 +22,8 @@ const Form = () => {
   });
 
   return (
-    <form>
-      <div className={styles.form}>
+    <form className={styles.form}>
+      <div className={styles.form_container}>
         <div className={styles.content_form}>
           <div className={styles.inputs}>
             <input
@@ -95,6 +95,9 @@ const Form = () => {
               onChange={onInputChange}
               name="email"
             />
+          </div>
+          <div>
+            <button className={styles.button_cotizar}>Cotizar</button>
           </div>
         </div>
       </div>

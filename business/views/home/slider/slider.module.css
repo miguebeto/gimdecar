@@ -1,7 +1,9 @@
 .general .grid .content_slider {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+
 }
+
 
 .sliders {
     height: auto;

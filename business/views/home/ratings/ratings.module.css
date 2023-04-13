@@ -1,0 +1,13 @@
+.bar {
+    background-image:url("/images/barrita.png");
+    background-size: 100%;
+    width: 100%;
+    height: 40px;
+    background-repeat: no-repeat;
+    color: #8A1720;
+    font-size: 12px;
+
+}
+.rating_container {
+    display: flex;
+}
