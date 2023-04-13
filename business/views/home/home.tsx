@@ -4,6 +4,10 @@ import styles from "./styles.module.css";
 import Benefits from "./Benefits";
 import SliderComments from "./slider/slider.component";
 import Image from "next/image";
+import Form from "./form/form";
+import Ratings from "./ratings/ratings";
+
+
 
 const HomePage = () => {
   return (
@@ -13,14 +17,17 @@ const HomePage = () => {
       <Benefits />
       <SliderComments />
       <h1>Hola mundo</h1>
-      <h1>Hola mundo</h1>
-      <div className={styles.background_content}>
+      <Ratings />
+      <Form />
+      <div className={styles.background_content2}>
+        <Image
+          style={{ objectFit: "fill" }}
+          src={"/images/resource2_1.png"}
+          alt={"logo Gimdecar"}
+          width={1135}
+          height={500}
+        />
       </div>
-      <div className={styles.banner}>
-        <Image className={styles.banner_img} src="/images/banner.png" alt="banner" title="banner" width={700} height={250} />
-        <Image src="/images/beats.png" alt="betas" title="beats" width={300} height={400} />
-      </div>
-      <h1>Hola mundo</h1>
     </>
   );
 };

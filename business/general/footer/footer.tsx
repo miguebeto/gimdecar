@@ -7,6 +7,23 @@ export default function Footer() {
   const social_iten = t<any>("social.item", {}, { returnObjects: true });
   return (
     <>
+      <div className={styles.banner}>
+          <Image
+            className={styles.banner_img}
+            src="/images/banner.png"
+            alt="banner"
+            title="banner"
+            width={800}
+            height={230}
+          />
+          <Image
+            src="/images/beats.png"
+            alt="betas"
+            title="beats"
+            width={400}
+            height={400}
+          />
+        </div>
       <footer className={styles.footer}>
         <div className={styles.general}>
           <div className={styles.content_1}>

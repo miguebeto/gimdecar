@@ -48,6 +48,10 @@
     margin-left: 10px;
 }
 
+.social_network i:hover{
+    background-color: #C1272D;
+}
+
 @media (max-width: 1022px) {
     .general {
         justify-content: space-between;
