@@ -58,36 +58,51 @@ const Navigation = () => {
 
         <div className={menu}>
           <ul className={styles.navigation}>
-            {menuItems.map(({ text, href }) => (
-                <Link href={href} key={href}>
-                  {router.asPath === '/idiomas'?
-                      <div className={router.asPath === href ? styles.active : styles.buttom_menu_idiomas} >
-                        {text}
-                      </div>
-                      :
-                      <div className={router.asPath === href ? styles.active : styles.buttom_menu} >
-                        {text}
-                      </div>
-                  }
+            <div onClick={handleMenu} className={styles.botonMovil2}>
+              <div>
+                <Link href="#">
+                  <i className={icon}></i>
                 </Link>
-            ))}
-          </ul>
-        </div>
+              </div>
 
-        <div className={router.asPath === '/idiomas' ? styles.social_network_idiomas : styles.social_network}>
-          <ul className={styles.navigation}>
-            <i className="bx bxl-instagram"></i>
-            <i className="bx bxl-facebook"></i>
-            <i className="bx bxl-tiktok"></i>
-          </ul>
-          <div>
-            <div onClick={handleMenu} className={styles.botonMovil}>
-              <Link href="#">
-                <i className={icon}></i>
-              </Link>
             </div>
+
+              {menuItems.map(({ text, href }) => (
+                  <div className={styles.listButtons} key={href}>
+                  <Link href={href} >
+                    {router.asPath === '/idiomas'?
+                        <div className={router.asPath === href ? styles.active : styles.buttom_menu_idiomas} >
+                          {text}
+                        </div>
+                        :
+                        <div className={router.asPath === href ? styles.active : styles.buttom_menu} >
+                          {text}
+                        </div>
+                    }
+                  </Link>
+                  </div>
+              ))}
+
+
+            <div className={router.asPath === '/idiomas' ? styles.social_network_idiomas : styles.social_network}>
+              <ul>
+                <i className="bx bxl-instagram"></i>
+                <i className="bx bxl-facebook"></i>
+                <i className="bx bxl-tiktok"></i>
+              </ul>
+            </div>
+
+          </ul>
+
+        </div>
+        <div>
+          <div onClick={handleMenu} className={styles.botonMovil}>
+            <Link href="#">
+              <i className={icon}></i>
+            </Link>
           </div>
         </div>
+
       </div>
     </nav>
   );
