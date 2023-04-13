@@ -96,7 +96,7 @@
 
 .description{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .description p{
@@ -141,7 +141,7 @@
 }
 
 .home_tasks {
-    margin-top: -440px
+    margin-top: -422px
 }
 
 
