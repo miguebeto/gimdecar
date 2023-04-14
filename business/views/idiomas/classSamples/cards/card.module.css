@@ -9,3 +9,52 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+.video{
+    width: 330px;
+    height: 450px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.texts h3{
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 60px;
+    color: #681319;
+}
+.texts span{
+    color: #7d8ee6 !important;
+}
+.texts p{
+    margin-top: -40px;
+    color: #681319;
+    font-size: 18px;
+    width: 197px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 920PX) {
+    .general{
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 830PX) {
+    .grid{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .texts h3{
+        text-align: center;
+    }
+    
+    .description{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+}

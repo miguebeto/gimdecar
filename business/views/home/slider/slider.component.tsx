@@ -18,7 +18,7 @@ import Link from "next/link";
 
 SwiperCore.use([Autoplay, Navigation]);
 
-export default function SliderComments() {
+export default function SliderComments(props:any) {
   const swiperRef = React.useRef<SwiperType>();
 
   const content = comments.home.map((item: any, index: any) => (
@@ -51,7 +51,8 @@ export default function SliderComments() {
     <>
       <div className={styles.general}>
         <div className={styles.grid}>
-          <h2>Testimonios académicos</h2>
+          {props.id === "idiomas" ? <div className={styles.title_languages}><h2><span>{props.span} </span>{props.title}</h2></div>
+          : <h2>{props.title}</h2> }
           <div className={styles.content_slider}>
             <div className={styles.prev_btn}>
               <a type="button" onClick={() => swiperRef.current?.slidePrev()}>

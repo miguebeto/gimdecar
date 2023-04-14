@@ -1,13 +1,13 @@
 import styles from "./class.module.css"
 import 'swiper/css';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, {Autoplay, A11y, Pagination, Navigation} from "swiper";
+import SwiperCore, { Autoplay, A11y, Pagination, Navigation } from "swiper";
 import slider from "../../../../services/sliders.json"
 import CardComponent from "./cards/card.component";
 
-export default function ClassComponent(){
+export default function ClassComponent() {
 
-    return(
+    return (
         <>
             <section className={styles.section}>
                 <div className={styles.general}>
@@ -22,7 +22,12 @@ export default function ClassComponent(){
                             {
                                 slider.idiomas?.map((item: any, index: any) => (
                                     <SwiperSlide key={index}>
-                                        <CardComponent itmes={item ? item : null}/>
+                                        <CardComponent
+                                            image={item.image} 
+                                            title1={item.title1} title2={item.title2} title3={item.title3}
+                                            number={item.class_number}
+                                            description={item.description}
+                                        />
                                     </SwiperSlide>
                                 ))
                             }

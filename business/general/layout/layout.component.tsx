@@ -17,7 +17,7 @@ export default function Layout({ children }: any) {
         <div className={styles.content_view} style={background}>
           <Navigation />
           {children}
-          <FloatingWhatsApp phoneNumber="573058779813" />
+          {/* <FloatingWhatsApp phoneNumber="573058779813" /> */}
           <Footer />
         </div>
       </div>

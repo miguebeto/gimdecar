@@ -114,6 +114,24 @@
     justify-content: center;
 }
 
+/* TITLE IDIOMAS */
+.title_languages{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.title_languages h2{
+    width: 460px;
+    text-align: center;
+    font-size: 50px;
+    color: #433e2c;
+    font-weight: 800;
+    line-height: 50px;
+}
+.title_languages span{
+    color: #7d8ee6;
+}
+
 /* RESPONSIVE */
 @media (max-width: 1010px) {
     .content_slider{

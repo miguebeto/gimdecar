@@ -15,7 +15,7 @@ const HomePage = () => {
       <MainTitle />
       <Ubication />
       <Benefits />
-      <SliderComments />
+      <SliderComments title={'Testimonios académicos'} />
       <h1>Hola mundo</h1>
       <Ratings />
       <Form />
