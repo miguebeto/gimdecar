@@ -1,0 +1,9 @@
+.ratings{
+    display: flex;
+    justify-content: center;
+}
+
+.ratings div p{
+    font-size: 18px;
+    color: #681319;
+}

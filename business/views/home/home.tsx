@@ -5,8 +5,8 @@ import Benefits from "./Benefits";
 import SliderComments from "./slider/slider.component";
 import Image from "next/image";
 import Form from "./form/form";
-import Ratings from "./ratings/ratings";
-
+import ReadyLearnComponenet from "../../content/readyLearn/readyLearn.component";
+import StarsRatings from "../../../business/content/ratings/ratinsStars.component";
 
 
 const HomePage = () => {
@@ -16,8 +16,7 @@ const HomePage = () => {
       <Ubication />
       <Benefits />
       <SliderComments title={'Testimonios académicos'} />
-      <h1>Hola mundo</h1>
-      <Ratings />
+      <StarsRatings/>
       <Form />
       <div className={styles.background_content2}>
         <Image
@@ -28,6 +27,7 @@ const HomePage = () => {
           height={500}
         />
       </div>
+      <ReadyLearnComponenet/>
     </>
   );
 };
