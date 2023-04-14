@@ -1,10 +1,16 @@
 import Image from "next/image";
 import styles from "./styles.module.css";
 import useTranslation from "next-translate/useTranslation";
+import { useRouter } from "next/router";
 
 export default function Footer() {
   const { t, lang } = useTranslation("footer");
   const social_iten = t<any>("social.item", {}, { returnObjects: true });
+  const router = useRouter();
+
+  const backColor = {
+    backgroundColor: router.asPath === "/" ? "#f2ebe1" : "#FFFFFF"
+  }
   return (
     <>
       {/* <div className={styles.banner}>
@@ -25,7 +31,7 @@ export default function Footer() {
             height={400}
           />
       </div> */}
-      <footer className={styles.footer}>
+      <footer className={styles.footer} style={backColor}>
         <div className={styles.general}>
           <div className={styles.content_1}>
             <div className={styles.logo}>

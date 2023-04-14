@@ -51,8 +51,9 @@ export default function SliderComments(props:any) {
     <>
       <div className={styles.general}>
         <div className={styles.grid}>
-          {props.id === "idiomas" ? <div className={styles.title_languages}><h2><span>{props.span} </span>{props.title}</h2></div>
-          : <h2>{props.title}</h2> }
+          {props.id === "home" ? <div className={styles.title_home}><h2>{props.title}</h2></div> : null }
+          {props.id === "idiomas" ? <div className={styles.title_languages}><h2><span>{props.span} </span>{props.title}</h2></div> : null}
+          {props.id === "talento" ? <div className={styles.title_home}><h2>{"Talento page"}</h2></div>: null}
           <div className={styles.content_slider}>
             <div className={styles.prev_btn}>
               <a type="button" onClick={() => swiperRef.current?.slidePrev()}>

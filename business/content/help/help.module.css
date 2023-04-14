@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    z-index: 999;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 350px 100px;
+}
+
+.miniTag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/images/barrita.png");
+    background-size: 100% 100%;
+    width: 350px;
+    height: 70px;
+}
+.text{
+    font-size: 16px;
+    color: #681319;
+    font-weight: 700;
+    margin-left: -20px;
+}
+
+.whatsapp{
+    margin-left: -5px;
+    margin-top: -13px;
+}
+.whatsapp img{
+    cursor: pointer;
+}
+
+/* RESPONSIVE */
+@media (max-width: 540px) {
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+    .miniTag{
+        width: 280px;
+    }
+    .text{
+        font-size: 14px;
+    }
+    .whatsapp{
+        display: flex;
+        justify-content: center;
+    }
+}

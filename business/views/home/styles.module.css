@@ -158,9 +158,11 @@
 
 
 .background_content2 {
-    width: fit-content;
+    width: 100%;
     margin-bottom: -128px;
 }
-
+.background_content2 img{
+    width: 100% !important;
+}
 
 

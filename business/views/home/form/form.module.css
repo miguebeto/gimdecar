@@ -26,11 +26,6 @@
     border: 2px solid #681319;
 }
 
-.form input:hover{
-    background-color: #681319;
-    color: #ffffff;
-}
-
 
 .inputs{
     padding-bottom: 20px;
@@ -44,8 +39,11 @@
     height: 60px;
     padding: 20px;
     border: 2px solid #681319;
-    background: #ffffff;
-    color:#000000;
+    background: #681319;
+    color:#FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.5s;
 }
 
 .button_cotizar:hover{
@@ -55,7 +53,8 @@
     height: 60px;
     padding: 20px;
     border: 2px solid #681319;
-    background: #681319;
+    background-color: #C1272D;
     color:#FFFFFF;
     cursor: pointer;
+    transition: 1s;
 }

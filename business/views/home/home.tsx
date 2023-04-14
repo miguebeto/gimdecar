@@ -7,6 +7,7 @@ import Image from "next/image";
 import Form from "./form/form";
 import ReadyLearnComponenet from "../../content/readyLearn/readyLearn.component";
 import StarsRatings from "../../../business/content/ratings/ratinsStars.component";
+import HelpComponent from "../../content/help/help.component";
 
 
 const HomePage = () => {
@@ -15,8 +16,9 @@ const HomePage = () => {
       <MainTitle />
       <Ubication />
       <Benefits />
-      <SliderComments title={'Testimonios académicos'} />
+      <SliderComments title={'Testimonios académicos'} id="home"/><br/><br/><br/>
       <StarsRatings/>
+      <HelpComponent />
       <Form />
       <div className={styles.background_content2}>
         <Image
