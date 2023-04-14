@@ -47,7 +47,6 @@
 }
 
 .button_cotizar:hover{
-    height: 40px;
     border-radius: 30px;
     width: 100% !important;
     height: 60px;
@@ -57,4 +56,17 @@
     color:#FFFFFF;
     cursor: pointer;
     transition: 1s;
+}
+
+/* RESPONSIVE */
+@media (max-width: 890px) {
+    .form_container{
+        width: 400px
+    }
+}
+
+@media (max-width: 530px) {
+    .form_container{
+        width: 90%;
+    }
 }

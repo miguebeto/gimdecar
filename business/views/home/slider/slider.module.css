@@ -186,5 +186,7 @@
         align-items: center;
         grid-template-columns: 1fr !important;
     }
-
+    .title_home h2{
+        font-size: 40px;
+    }
 }
