@@ -1,5 +1,6 @@
 import { useForm } from "../../../content/hooks/useForm";
 import styles from "./form.module.css";
+import FormService from "../../../../services/form.service";
 
 const Form = () => {
   const {
@@ -21,6 +22,20 @@ const Form = () => {
     email: "",
   });
 
+  const dataForm = {
+    name: name,
+    email: email,
+    address: address,
+    city: city,
+    product: product,
+    cel: cel
+  }
+
+  const saveForm = (ev:any) => {
+    ev.preventDefault();
+    FormService(dataForm)
+  }
+
   return (
     <form className={styles.form}>
       <div className={styles.form_container}>
@@ -30,7 +45,6 @@ const Form = () => {
               required
               type="text"
               placeholder="Ciudad"
-              className={styles.formControl}
               value={city}
               onChange={onInputChange}
               name="city"
@@ -42,7 +56,6 @@ const Form = () => {
               required
               type="text"
               placeholder="Dirección"
-              className={styles.formControl}
               value={address}
               onChange={onInputChange}
               name="address"
@@ -54,7 +67,6 @@ const Form = () => {
               required
               type="text"
               placeholder="Nombre"
-              className={styles.formControl}
               value={name}
               onChange={onInputChange}
               name="name"
@@ -66,7 +78,6 @@ const Form = () => {
               required
               type="text"
               placeholder="Producto"
-              className={styles.formControl}
               value={product}
               onChange={onInputChange}
               name="product"
@@ -78,7 +89,6 @@ const Form = () => {
               required
               type="text"
               placeholder="Tel/Cel"
-              className={styles.formControl}
               value={cel}
               onChange={onInputChange}
               name="cel"
@@ -90,14 +100,13 @@ const Form = () => {
               required
               type="text"
               placeholder="Email"
-              className={styles.formControl}
               value={email}
               onChange={onInputChange}
               name="email"
             />
           </div>
           <div>
-            <button className={styles.button_cotizar}>Cotizar</button>
+            <button className={styles.button_cotizar} onClick={saveForm} type="submit">Cotizar</button>
           </div>
         </div>
       </div>
