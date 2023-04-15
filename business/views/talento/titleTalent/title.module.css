@@ -37,7 +37,7 @@
 }
 
 /* RESPONSIVE */
-@media (max-width: 920px) {
+@media (max-width: 952px) {
     .content{
         display: flex;
         flex-wrap: wrap;

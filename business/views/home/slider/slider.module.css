@@ -54,32 +54,44 @@
 }
 
 .prev_btn{
-    font-size: 80px;
+    font-size: 50px;
     display: flex;
     align-items: center;
     justify-content: right;
+    margin-top: -20px;
+    margin-right: -25px;
+    z-index: 999;
 }
 .prev_btn a i{
-    color: #1D6FB7;
+    font-weight: 900;
+    color: #8A1720;
+    background-color: #ffffff;
+    border-radius: 50%;
     cursor: pointer;
     transition: 1s;
 }
 .prev_btn a i:hover{
-    font-size: 90px;
+    font-size: 55px;
 }
 
 .next_btn{
     display: flex;
     align-items: center;
-    font-size: 80px;
+    font-size: 50px;
+    margin-top: -20px;
+    margin-left: -25px;
+    z-index: 999;
 }
 .next_btn a i{
-    color: #1D6FB7;
+    font-weight: 900;
+    color: #8A1720;
+    background-color: #ffffff;
+    border-radius: 50%;
     cursor: pointer;
     transition: 1s;
 }
 .next_btn a i:hover{
-    font-size: 90px;
+    font-size: 55px;
 }
 
 .descriptions{

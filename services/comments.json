@@ -14,6 +14,11 @@
             "image": "/images/comments/user-default.png",
             "name":"Carmen Díaz",
             "comment": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt."
+        },
+        {
+            "image": "/images/comments/user-default.png",
+            "name":"Carmen Díaz",
+            "comment": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt."
         }
     ]
 }

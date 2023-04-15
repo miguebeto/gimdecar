@@ -13,7 +13,17 @@ export default function GradesComponent(props: any) {
                             <p>{props.translate('talents.section1.description')}</p>
                         </div>
                         <div className={styles.search_grade}>
-
+                            <div className={styles.search_content}>
+                                <input type='text' placeholder={props.translate('talents.section1.placeholder')} />
+                                <button type='button'>
+                                    <img
+                                        src='/images/talento/arrow-right.png'
+                                        alt='search' title='arrow'
+                                        width={28}
+                                        height={22}
+                                    />
+                                </button>
+                            </div>
                         </div>
                     </div>
                     <div>

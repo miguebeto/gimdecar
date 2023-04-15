@@ -1,4 +1,4 @@
-.section{
+.section {
     background-color: #f1ebe0;
     background-image: url("/images/idiomas/slider/background-slider.png");
     background-size: 100% 100%;
@@ -7,25 +7,81 @@
     width: 100%;
 }
 
-.swiper{
+.swiper {
     width: 100%;
     margin-top: 40px;
 }
 
-.general{
+.general {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.card_general{
+.card_general {
     margin-top: 40px;
 }
 
+.content_control {
+    margin-top: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controllers {
+    display: inline-block;
+    z-index: 999;
+}
+
+.controllers a {
+    cursor: pointer;
+
+
+}
+
+.controllers a i {
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.controllers .prev i {
+    color: white;
+    background-color: #1D6FB7;
+    border-radius: 50%;
+}
+
+.controllers .next i {
+    margin-left: 18px;
+    color: white;
+    background-color: #8A1720;
+    border-radius: 50%;
+}
+
+.swiper_pagination {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #fff;
+    opacity: 0.4;
+    margin: 0 8px;
+    font-size: 500px;
+}
+
+.pagination {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+
 /* RESPONSIVE */
 @media (max-width: 830PX) {
-    .section{
+    .section {
         height: auto;
         padding-bottom: 50px;
     }
