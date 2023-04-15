@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 
 export default function Footer() {
   const { t, lang } = useTranslation("footer");
-  const social_iten = t<any>("social.item", {}, { returnObjects: true });
+  const social_items = t<any>("social.items", {}, { returnObjects: true });
   const router = useRouter();
 
   const backColor = {
@@ -44,44 +44,49 @@ export default function Footer() {
                 width={20}
                 height={20}
               />
-              {t("GIMNASIO MODERNO DE CARTAGENA")}
+              GIMNASIO MODERNO DE CARTAGENA
             </h2>
-            <h2>{t("Sobre nosotros")}</h2>
+            <h2>{t('about.title')}</h2>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore
-              perspiciatis
+              {t('about.description')}
             </p>
           </div>
 
           <div className={styles.content_2}>
-            <h2>{t("Contacto")}</h2>
+            <h2>{t("contact.title")}</h2>
             <div className={styles.infoUbi}>
               <div className={styles.itenUbi}>
                 <i className="bx bx-mail-send"></i>
                 <div className={styles.info}>
-                  <p>{t("contact.direction")}</p>
+                  <p>
+                    {t("contact.address")} <br/>
+                    {t('contact.place')}
+                  </p>
                 </div>
               </div>
 
               <div className={styles.itenUbi}>
                 <i className="bx bx-phone"></i>
                 <div className={styles.info}>
-                  <p>{t("contact.phone")}</p>
+                  <p>
+                    {t("contact.phone1")}<br/>
+                    {t("contact.phone2")}
+                    </p>
                 </div>
               </div>
 
               <div className={styles.itenUbi}>
                 <i className="bx bx-time-five"></i>
                 <div className={styles.info}>
-                  <p>{t("schedule.title")}</p>
-                  <p>{t("schedule.content")}</p>
+                  <p>{t("contact.schedule.name")}</p>
+                  <p>{t("contact.schedule.hours")}</p>
                 </div>
               </div>
             </div>
           </div>
 
           <div className={styles.content_3}>
-            <h2>{t("Redes Sociales")}</h2>
+            <h2>Redes Sociales</h2>
             <div className={styles.social}>
               <ul className={styles.navigation}>
                 <i className="bx bxl-instagram"></i>
@@ -89,8 +94,9 @@ export default function Footer() {
                 <i className="bx bxl-tiktok"></i>
               </ul>
             </div>
-            <h2>{t("Legales")}</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <h2>{t("legacy.title")}</h2>
+            <p>{t('legacy.policy')}</p>
+            <p>{t('legacy.nit')}</p>
           </div>
         </div>
       </footer>

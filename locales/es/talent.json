@@ -1,0 +1,20 @@
+{
+    "general": {
+        "button": "Leer más"
+    },
+    "section1": {
+        "title": "Aprende con nosotros desde tu primer año"
+    },
+    "talents": {
+        "section1":{
+            "title": "Todos nuestros grados",
+            "description": "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
+            "placeholder": "Buscar grado"
+        },
+        "section2":{
+            "title": "Desarrollo de nuevos talento",
+            "description": "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
+            "placeholder": "Buscar tu talento"
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "about": {
+        "title": "Sobre nosotros",
+        "description": "Lorem ipsum dolor sit amet, conse tetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut."
+    },
+    "contact":{
+        "title": "Contacto",
+        "address": "Calle 29a ##22-46 Esquina",
+        "place": "Cartagena, Bolívar, Colombia",
+        "schedule": {
+            "hours": "9:00 am a 7:00 pm",
+            "name": "Horario de atención"
+        },
+        "phone1": "(+57) 300 123 4567",
+        "phone2": "(+57) 312 234 5678"
+    },
+    "social": {
+        "title": "Redes sociales",
+        "items": [
+            {
+                "img": "",
+                "alt": "",
+                "title": ""
+            },
+            {
+                "img": "",
+                "alt": "",
+                "title": ""
+            },
+            {
+                "img": "",
+                "alt": "",
+                "title": ""
+            }
+        ]
+    },
+    "legacy": {
+        "title": "Legales",
+        "policy": "Términos y condiciones",
+        "nit": "NIT. 12268552962"
+    }
+}

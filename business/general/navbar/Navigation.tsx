@@ -14,8 +14,8 @@ const menuItems = [
     href: "/idiomas",
   },
   {
-    text: "Home3",
-    href: "/home3",
+    text: "Talento",
+    href: "/talento",
   },
   {
     text: "Home4",
