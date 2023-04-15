@@ -55,6 +55,7 @@ export default function Footer() {
           <div className={styles.content_2}>
             <h2>{t("contact.title")}</h2>
             <div className={styles.infoUbi}>
+
               <div className={styles.itenUbi}>
                 <i className="bx bx-mail-send"></i>
                 <div className={styles.info}>

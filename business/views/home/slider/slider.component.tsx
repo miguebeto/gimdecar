@@ -40,8 +40,8 @@ export default function SliderComments(props:any) {
           </p>
         </div>
       </div>
-      <div className={styles.buttom_slider_container}>
-          <Link href="/" className={styles.buttom_menu_slider}>
+      <div className={styles.button_slider_container}>
+          <Link href="/" className={styles.button_menu_slider}>
             Leer más
           </Link>
       </div>

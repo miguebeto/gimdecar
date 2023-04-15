@@ -3,7 +3,7 @@
     z-index: 999;
 }
 
-.buttom_menu {
+.button_menu {
     padding: 13px 24px;
     color: white !important;
     font-weight: 600;
@@ -14,7 +14,7 @@
     cursor: pointer;
 }
 
-.buttom_menu_idiomas{
+.button_menu_idiomas{
     padding: 13px 24px;
     color: #681319 !important;
     font-weight: 600;
@@ -34,11 +34,11 @@
 
 }
 
-.buttom_menu:hover {
+.button_menu:hover {
     background-color: #C1272D !important;
     transition: 1s;
 }
-.buttom_menu_idiomas:hover {
+.button_menu_idiomas:hover {
     background-color: #C1272D !important;
     color: #FFFFFF !important;
     transition: 1s;
@@ -133,10 +133,10 @@
         display: none;
     }
 
-    .buttom_menu{
+    .button_menu{
         margin-bottom: 10px;
     }
-    .buttom_menu_idiomas{
+    .button_menu_idiomas{
         margin-bottom: 10px;
     }
 

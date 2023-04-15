@@ -14,7 +14,7 @@ const Benefits = () => {
           </div>
 
           <div className={styles.button}>
-            <Link href="/" className={styles.buttom_menu_benefits}>
+            <Link href="/" className={styles.button_menu_benefits}>
               Leer más
             </Link>
           </div>

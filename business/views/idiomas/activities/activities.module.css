@@ -14,7 +14,7 @@
 .title{
     padding-top: 100px;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 .title h2{
     font-size: 60px;
