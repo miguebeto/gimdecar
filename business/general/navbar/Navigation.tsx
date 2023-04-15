@@ -71,11 +71,11 @@ const Navigation = () => {
                   <div className={styles.listButtons} key={href}>
                   <Link href={href} >
                     {router.asPath === '/idiomas'?
-                        <div className={router.asPath === href ? styles.active : styles.buttom_menu_idiomas} >
+                        <div className={router.asPath === href ? styles.active : styles.button_menu_idiomas} >
                           {text}
                         </div>
                         :
-                        <div className={router.asPath === href ? styles.active : styles.buttom_menu} >
+                        <div className={router.asPath === href ? styles.active : styles.button_menu} >
                           {text}
                         </div>
                     }

@@ -21,7 +21,7 @@ const Ubication = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Perferendis, quis fugit. Optio eos dolore ullam blanditiis
           </p>
-          <div className={styles.buttom_menu_ubication}>
+          <div className={styles.button_menu_ubication}>
             <Link href="/">Leer más</Link>
           </div>
         </div>

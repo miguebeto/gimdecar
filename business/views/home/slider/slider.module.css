@@ -31,7 +31,7 @@
     flex-direction: column;
 }
 
-.buttom_menu_slider {
+.button_menu_slider {
     padding: 8px;
     color: #8A1720;
     font-weight: 800;
@@ -107,7 +107,7 @@
     margin-bottom: -1rem;
 }
 
-.buttom_slider_container {
+.button_slider_container {
     display: flex;
     align-items: center;
     justify-content: center;
