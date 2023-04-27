@@ -1,9 +1,11 @@
 import { useState } from "react";
 import styles from "./ratings.module.css"
 import { Rating } from 'react-simple-star-rating'
+import useTranslation from "next-translate/useTranslation";
 
 
 const StarsRatings = () => {
+  const { t, lang } = useTranslation("home");
   const [rating, setRating] = useState(0)
 
   // Catch Rating value
@@ -19,18 +21,16 @@ const StarsRatings = () => {
 
   return (
     <div className={styles.ratings}>
-      <div>
         <Rating
           onClick={handleRating}
           onPointerEnter={onPointerEnter}
           onPointerLeave={onPointerLeave}
           onPointerMove={onPointerMove}
-          initialValue={3}
-          style={{marginLeft: '65px'}}
+          initialValue={5}
+          readonly
         /* Available Props */
         />
-        <p>Te ha resultado útil esta información?</p>
-      </div>
+        <h4>{t("section4.description")}</h4>
     </div>
   );
 };

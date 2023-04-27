@@ -4,7 +4,7 @@
     align-items: center;
     padding-top: 50px;
     padding-bottom: 20px;
-    z-index: 999;
+    z-index: 700;
 }
 
 .grid{
@@ -21,9 +21,24 @@
     width: 350px;
     height: 70px;
 }
+.miniTag2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/images/bar4.png");
+    background-size: 100% 100%;
+    width: 350px;
+    height: 70px;
+}
 .text{
     font-size: 16px;
     color: #681319;
+    font-weight: 700;
+    margin-left: -20px;
+}
+.text2{
+    font-size: 16px;
+    color: #ffffff;
     font-weight: 700;
     margin-left: -20px;
 }
@@ -44,6 +59,9 @@
         align-items: center;
     }
     .miniTag{
+        width: 280px;
+    }
+    .miniTag2{
         width: 280px;
     }
     .text{

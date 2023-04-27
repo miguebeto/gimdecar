@@ -12,10 +12,12 @@ import slider from "../../../../services/sliders.json"
 import CardComponent from "./cards/card.component";
 import { useRef } from "react";
 
-export default function ClassComponent() {
+export default function ClassComponent(props:any) {
     const swiperRef = useRef<SwiperType>();
 
-    return (
+    // console.log("items => ", props.items_slider);
+
+    return ( 
         <>
             <section className={styles.section}>
                 <div className={styles.general}>
@@ -32,16 +34,15 @@ export default function ClassComponent() {
                     >
                         <div className={styles.card_general}>
                             {
-                                slider.idiomas?.map((item: any, index: any) => (
+                                Array.isArray(props.items_slider) ? props.items_slider?.map((item: any, index: any) => (
                                     <SwiperSlide key={index}>
                                         <CardComponent
                                             image={item.image}
-                                            title1={item.title1} title2={item.title2} title3={item.title3}
-                                            number={item.class_number}
+                                            title1={item.title} title2={item.title2} title3={item.title3}
                                             description={item.description}
                                         />
                                     </SwiperSlide>
-                                ))
+                                )): null
                             }
                         </div>
                     </Swiper>

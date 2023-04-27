@@ -1,0 +1,66 @@
+{
+    "home":[
+        {
+            "image": "/images/comments/user-default.png",
+            "name":"Juan Amaya",
+            "comment": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt."
+        },
+        {
+            "image": "/images/comments/user-default.png",
+            "name":"Ana Bossa",
+            "comment": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt."
+        },
+        {
+            "image": "/images/comments/user-default.png",
+            "name":"Carmen Díaz",
+            "comment": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt."
+        },
+        {
+            "image": "/images/comments/user-default.png",
+            "name":"Carmen Díaz",
+            "comment": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt."
+        }
+    ],
+    "espacios":[
+        {
+            "image": "/images/comments/user-default.png",
+            "name":"Juan Amaya",
+            "comment": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+            "button": "Inglés"
+        },
+        {
+            "image": "/images/comments/user-default.png",
+            "name":"Ana Bossa",
+            "comment": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+            "button": "Francés"
+        },
+        {
+            "image": "/images/comments/user-default.png",
+            "name":"Carmen Díaz",
+            "comment": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+            "button": "Portugues"
+        }
+    ],
+    "talento":[
+        {
+            "image": "/images/comments/user-default.png",
+            "name":"Nubia González"  ,
+            "comment": "An educational institution that trains students humanistically and academically, in an environment of healthy coexistence and supported by values, thus promoting the development of intellectual, communicative, artistic, technological and sports capacities, in accordance with curricular guidelines and signs of time"
+        },
+        {
+            "image": "/images/comments/user-default.png",
+            "name":"Daniela Nuñez",
+            "comment": "I am very grateful to Gimdecar. They are an institution very committed to the education of students and always with love"
+        },
+        {
+            "image": "/images/comments/user-default.png",
+            "name":"Carmen Díaz",
+            "comment": "Great!! Our girls and boys look beautiful , super happy, those beautiful faces is the reflection of what they feel in their heart. Thanks Gimdecar for these activities that make our children strengthen their bonds of friendship and have fun learning. 🤩🥳😍😍💕"
+        },
+        {
+            "image": "/images/comments/user-default.png",
+            "name":"Andrés Escobar",
+            "comment": "Excellent institution, good quality and good treatment."
+        }
+    ]
+}

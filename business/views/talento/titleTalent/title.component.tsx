@@ -1,5 +1,6 @@
 import useTranslation from "next-translate/useTranslation";
 import styles from "./title.module.css";
+import Link from "next/link";
 
 export default function TitleTalent(props:any){
     // console.log("talent translate => ", t('section1'));
@@ -13,7 +14,7 @@ export default function TitleTalent(props:any){
                             {props.translate('section1.title')}<br/>
                         </h1>
 
-                        <button>{props.translate('general.button')}</button>
+                        <Link href="/#form-seccion"><button>{props.translate('section1.button')}</button></Link>
                     </div>
                 </div>
             </div>

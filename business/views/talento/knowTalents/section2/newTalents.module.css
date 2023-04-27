@@ -1,0 +1,161 @@
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 250px;
+    /* background-color: #211f16; */
+    background-image: url('/images/talento/base2.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -5px;
+}
+
+.content{
+    margin-top: -250px;
+}
+
+.grid{
+    margin-top: -150px;
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+}
+
+.light{
+    width: 100%;
+    height: 100%;
+}
+
+.text{
+    width: 415px;
+}
+.text h2{
+    text-align: right;
+    line-height: 65px;
+    padding-left: 50px;
+    color: #FFFFFF;
+    font-size: 65px;
+    font-weight: 900;
+}
+.text p{
+    text-align: right;
+    padding-left: 50px;
+    color: #FFFFFF;
+    font-size: 22px;
+}
+
+.search_grade{
+    padding-left: 0;
+}
+.search_grade input{
+    background-color: #f1ebe0;
+    width: 86%;
+    height: 38.5px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+.search_grade button{
+    cursor: pointer;
+    height: 37.5px;
+    width: 60px;
+    margin-left: -5px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-end-end-radius: 5px;
+    background-color: #8a1720;
+    text-align: center;
+    padding-bottom: 36.5px;
+    transition: 0.8s;
+}
+.search_grade button img{
+    position: relative;
+    top: 6px;
+}
+.search_grade button:hover{
+    transition: 1s;
+    background-color: #C1272D;
+    transform: translateX(-5px);
+}
+
+/* RESPONSIVE */
+@media (max-width: 940px) {
+    .image img{
+        width: 250px !important;
+        height: 380px !important;
+    }
+    .text{
+        width: 80%;
+    }
+    .text h2{
+        padding-left: 20px;
+        font-size: 45px;
+    }
+    .text p{
+        padding-left: 20px;
+        font-size: 16px;
+    }
+    .search_grade input{
+        width: 70%;
+    }
+    .search_grade button{
+
+        width: 60px;
+        margin-left: -5px;
+
+    }
+    .content {
+        width: 100%;
+    }
+}
+@media (max-width: 710px) {
+    .text h2{
+        padding-left: 20px;
+        line-height: 40px;
+        font-size: 35px;
+    }
+    .text p{
+        padding-left: 20px;
+        font-size: 11px;
+    }
+}
+@media (max-width: 730px) {
+    .text h2{
+        padding-left: 20px;
+        line-height: 40px;
+        font-size: 35px;
+    }
+    .text p{
+        padding-left: 20px;
+        font-size: 11px;
+    }
+}
+@media (max-width: 580px) {
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+    .image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text h2{
+        text-align: center;
+    }
+    .text p{
+        text-align: center;
+    }
+    .search_grade{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}

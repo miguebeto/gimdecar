@@ -1,20 +1,106 @@
 {
     "general": {
-        "button": "Leer más"
+        "button": "Leer más",
+        "title": "Talento"
     },
     "section1": {
-        "title": "Aprende con nosotros desde tu primer año"
+        "title": "Enseñanza en amor para tus hijos desde los primeros años",
+        "button": "Contáctanos"
     },
     "talents": {
         "section1":{
-            "title": "Todos nuestros grados",
-            "description": "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
-            "placeholder": "Buscar grado"
+            "title": "Educación en amor",
+            "description": "Nuestro lema es la educación en amor para el pleno desarrollo de los talentos y habilidad de nuestros estudiantes",
+            "placeholder": "Buscar grado",
+            "grades": {
+                "list": ["1ER GRADO", "2DO GRADO", "3ER GRADO", "4TO GRADO", "5TO GRADO", "6TO GRADO"],
+                "button": "Leer más",
+                "items": [
+                    {
+                        "id": "0",
+                        "title": "PRIMER GRADO",
+                        "description": "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
+                        "iamge": "",
+                        "link": "#"
+                    },
+                    {
+                        "id": "1",
+                        "title": "SEGUNDO GRADO",
+                        "description": "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
+                        "iamge": "",
+                        "link": "#"
+                    },
+                    {
+                        "id": "2",
+                        "title": "TERCER GRADO",
+                        "description": "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
+                        "iamge": "",
+                        "link": "#"
+                    },
+                    {
+                        "id": "3",
+                        "title": "CUARTO GRADO",
+                        "description": "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
+                        "iamge": "",
+                        "link": "#"
+                    },
+                    {
+                        "id": "4",
+                        "title": "QUINTO GRADO",
+                        "description": "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
+                        "iamge": "",
+                        "link": "#"
+                    },
+                    {
+                        "id": "5",
+                        "title": "SEXTO GRADO",
+                        "description": "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
+                        "iamge": "",
+                        "link": "#"
+                    }
+                ]
+            },
+            "gallery": [
+                {
+                    "img": "/images/talento/slider/IMG_1.jpg",
+                    "alt": "Books",
+                    "title": "Books"
+                },
+                {
+                    "img": "/images/talento/slider/IMG_2.jpg",
+                    "alt": "Books",
+                    "title": "Books"
+                },
+                {
+                    "img": "/images/talento/slider/IMG_3.jpg",
+                    "alt": "Books",
+                    "title": "Books"
+                },
+                {
+                    "img": "/images/talento/slider/IMG_4.jpg",
+                    "alt": "Books",
+                    "title": "Books"
+                },
+                {
+                    "img": "/images/talento/slider/IMG_5.jpg",
+                    "alt": "Books",
+                    "title": "Books"
+                }
+            ]
         },
         "section2":{
-            "title": "Desarrollo de nuevos talento",
-            "description": "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
-            "placeholder": "Buscar tu talento"
+            "title": "Conoce nuestra sede de preescolar",
+            "description": "Nuestra comunidad educativa está dispuesta y apasionada por ser herramientas positivas para ti y tu familia.",
+            "button": "ver video"
         }
+    },
+    "spaces": {
+        "title1": "Inscríbe a tu hijo",
+        "description": "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
+        "button": "ver video"
+    },
+    "comments": {
+        "title": "Nuestros papitos",
+        "title2": "comentan"
     }
 }

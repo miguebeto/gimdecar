@@ -1,40 +1,43 @@
 .container{
     display: flex;
     justify-content: center;
+    margin-left: -80px;
 }
 
 .grid{
     margin-top: -30px;
     display: grid;
-    grid-template-columns: 400px 500px;
+    grid-template-columns: 500px 400px;
 }
 
 .titleButton h1{
     color: #FFFFFF;
     width: 100%;
-    font-size: 60px;
+    font-size: 48px;
     font-weight: 900;
-    line-height: 63px;
-    margin-left: 40px;
+    line-height: 52px;
+    margin-left: 62px;
 }
 .titleButton button{
-    margin-left: 40px;
-    width: 170px;
-    height: 50px;
-    font-size: 15px;
-    font-weight: 900;
-    color: #FFFFFF;
+    padding: 10px;
+    color: white;
+    font-weight: 800;
     background-color: #8A1720;
-    border-radius: 5px;
+    border-radius: 6px;
+    font-size: 20px;
     border: 0;
     box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.47);
     cursor: pointer;
     transition: 1s;
+    margin-left: 64px;
+    width: 250px;
+    height: 50px;
+
 }
 .titleButton button:hover{
     transition: 1s;
     background-color: #C1272D;
-    transform: translateY(-7px);
+    transform: translateY(-7px) !important;
 }
 
 .world{
@@ -54,20 +57,22 @@
         width: 100%;
     }
     .titleButton{
-        margin-left: 0px;
+        text-align: center;
+        font-size: 39px;
+        margin-left: 5px;
+        width: 95%;
     }
-    .titleButton button{
-        margin-left: 0px;
-    }
+
     .button{
         display: flex;
         justify-content: center;
     }
     .titleButton h1{
         text-align: center;
-        font-size: 50px;
-        margin-left: 0px;
-    }
+        font-size: 39px;
+        margin-left: 89px;
+        width: 80%;
+    }   
     .grid{
         display: flex;
         flex-wrap: wrap;
@@ -75,5 +80,34 @@
     }
     .container{
         align-items: center;
+    }
+}
+
+@media (max-width: 769px) {
+    .titleButton h1{
+        text-align: center;
+        font-size: 39px;
+        margin-left: 89px;
+        width: 80%;
+    }
+    .world {
+        margin-top: -19px;
+        margin-left: 100px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .titleButton h1{
+        margin-left: 74px;
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .titleButton a{
+        margin-left: 76px;
+    }
+    .world {
+        margin-top: -19px;
+        margin-left: 100px;
     }
 }

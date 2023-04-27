@@ -1,3 +1,32 @@
 {
-    
+  "description": "We are the school where academics, love and spirituality come together. With an effective English immersion program. Our motto is education in love for the full development of our students' talents and abilities.",
+  "keywords": "evolves, latin american school, modern north school, school, education, training, secondary, teaching, preschool, ministry of education, educational city, educates, secretary of education, maria montessori, physical education, maria auxiliadora, physical education, environmental education ,educating, inclusive education, sacred heart of jesus, salesians, montessori school, education, educational, education, educational institution, educational, educational capsules, food handler, salesian school, educational psychology, inclusive, los angeles school, strategy learning, looking for school, maría montessori, mine education, national ministry of education, school, la sagrada familia school, food handler course, cyber school, montessori school, sena educational offer, training, schools on the web, la concepcion school, district education secretary, teaching school, aspaen, postgraduate, lasalle school, education, educational, educational city, modern comprehensive educational center, google education, the annunciation school, digital resource, high altitude courses, secondary, primary education, primary, baccalaureate, virtual teaching, paideia, educational portal, primary world, educational platform, road education, school management, public education secretary, education portal, virtual education, school admission, santa maria school, educational management, military school, ministry of education platform San Jose College, educational resources, school admission system, educational system, medical college, national college, sacred heart college, San Ignacio College, Santa Luisa College, San Francisco de Asis College, Sedcauca, Senior College, Maria Auxiliadora College, continuing education, online education, school management system, distance education, santa cruz school, cambridge lms primary, higher education, anglo american school, school dropout, san francisco school, medical school, santa cecilia school, didactic resources, american school , initial education, sagrada familia school, socio-emotional education, german school, primary world, ie la paz, professional training, ministry of popular power for education, santo domingo school, decroly, educational sciences, maria montessori institute, maria inmaculada school, health education, gnosoft general santander, education 3, web, francisco jose de caldas schools, logse, sacred heart of jesus school, santa clara school, financial education, la merced school, educational quality, canva education, tripartite, san antonio school, unity educational, physical education teachers, higher normal, virtual baccalaureate, education ministry, education platform, canva for education, san pedro claver online school, santo tomas de aquino school, teacher training, immaculada concepcion school, ministry of education and professional training, ie bicentennial, emotional education, Ibero-American school, hybrid classes, online education, gnosoft rogelio salmona, live school 2.0, cedid guillermo cano isaza, educational technology, our lady of the pillar, formal education, san marcos school, artistic education, pio xii school ,educates families,cidead,colegio espiritu santo,colegio santa cecilia de tunjuelito,higher secondary education,ministry of public education,higher education,quality education,continuing education,physical education teacher's day,school projects,national technological university,admission school 2022, holy angel school, english school, ministry of education notes, non-formal education, early childhood education, civic education, primary education, sacred hearts, holy angel, educational level, baccalaureate in english, san vicente de paul school, ministry of education and sciences, educational center, federico froebel, casd platform, lyceo samario educational city, education in times of pandemic, comprehensive training, international school, virtual distance education, la inmaculada school, our lady of guadalupe school, national educational system, school Saint Elizabeth of Hungary, Guadalupe School, education in times of pandemic, San Bartolomé High School, social education, teaching learning, cesde digital education, Fatima School, Juan xxiii School, Faculty of Education, academic training, Paulo Freire School, Boston School ,pablo vi school,miraflores school,higher institute for teacher training,platform educational city,modern gym,online education,informal education,manuel cepeda vargas school,usaquen school,universidad libre school,educational policy,educational skills,mother online school Laura, Nuestra Señora del Pilar College, we educate Salesians, San Pablo College, ICT in education, nursing courses, San Luis College, educational evaluation, Mino de Dios Ciudad Verde College, National College of Technical Professional Education, Virtual Campus Politécnico Mayor , high school 1, concerted, jean piaget school, comprehensive education, rogelio salmona school, uned education, upper secondary school, secondary school grades, school in English, ICT in education",
+  "button": "Pay",
+  "menuItems": [
+    {
+      "text": "Home",
+      "href": "/",
+      "active": true
+    },
+    {
+      "text": "Languages",
+      "href": "/idiomas",
+      "active": true
+    },
+    {
+      "text": "Talent",
+      "href": "/talento",
+      "active": true
+    },
+    {
+      "text": "Spaces",
+      "href": "/espacios",
+      "active": false
+    },
+    {
+      "text": "Home5",
+      "href": "/home5",
+      "active": false
+    }
+  ]
 }

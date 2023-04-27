@@ -1,0 +1,32 @@
+.tabnav button{
+    width: 120px;
+    height: 50px;
+    background-color: #C1272D;
+    color: #FFFF;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 6px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.tabnav .activeTab{
+    background-color: #FFFF;
+    color: #C1272D;
+}
+
+.contentTab{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97.5%;
+    background-color: #f1ebe0;
+    border-radius: 6px;
+}
+
+.books img{
+    margin-left: -250px;
+    width: 230px;
+}

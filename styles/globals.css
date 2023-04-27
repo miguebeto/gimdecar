@@ -7,6 +7,7 @@ body {
     background-image: url("/images/body-background.png");
     background-size: cover;
     height: auto;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -16,4 +17,8 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.ReactModal__Overlay {
+  z-index: 1000;
 }

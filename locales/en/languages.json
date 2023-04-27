@@ -1,3 +1,39 @@
 {
-    
+    "general": {
+        "button": "Leer más",
+        "title": "Languages"
+    },
+    "section1": {
+        "title": "Learn about our English immersion program",
+        "button": "More Information"
+    },
+    "section2": {
+        "title": "Learning English has never been so fun",
+        "description": "Enroll your child in our English training program",
+        "button": "Sign up your child"
+    },
+    "section3": [
+        {
+            "image": "/images/idiomas/slider/students.jpg",
+            "title": "Visit to the restaurante",
+            "title2": "La casona",
+            "title3": "El Colegio",
+            "description": "Our students had the opportunity to order their favorite breakfast in English and chat with friends."
+        },
+        {
+            "image": "/images/idiomas/slider/patricio.jpg",
+            "title": "Celebration",
+            "title2": "San",
+            "title3": "Patricio",
+            "description": "Through creative presentations and teamwork, children developed their skills in English."
+        }
+    ],
+    "section4": {
+        "title": "Academic",
+        "title2": "testimony",
+        "description": "Highest quality training",
+        "description2": "Nuestra comunidad educativa está dispuesta y apasionada por ser herramientas positivas para ti y tu familia.",
+        "button": "Contáctanos",
+        "wsmessage": "Find out more"
+    }
 }

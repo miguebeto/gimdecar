@@ -1,0 +1,121 @@
+.container_learn {
+    display: flex;
+    justify-content: center;
+}
+
+.learn_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.learn_title h2 {
+    padding-left: 40px;
+    line-height: 55px;
+    margin-top: 20px;
+    font-size: 47px;
+    font-weight: 900;
+    color: #211F16;
+    width: 389px;
+}
+
+
+.learn_description {
+    padding-left: 45px;
+    width: 270px;
+    margin-top: 0rem;
+}
+
+.learn_input {
+    padding-left: 45px;
+    margin-top: 1rem;
+}
+
+.learn_input input {
+    background-color: #f1ebe0;
+    width: 60%;
+    height: 38.5px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.47);
+}
+
+.learn_input button {
+    cursor: pointer;
+    height: 37.5px;
+    width: 60px;
+    margin-left: -5px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-end-end-radius: 5px;
+    background-color: #8a1720;
+    text-align: center;
+    padding-bottom: 36.5px;
+    transition: 0.8s;
+    box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.47);
+}
+
+.learn_img {
+    margin-left: -113px;
+    margin-top: -121px;
+}
+
+
+@media (max-width: 980px) {
+    .container_learn {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .learn_img {
+        margin: 0;
+        width: 300px;
+    }
+    .learn_title {
+        line-height: 45px;
+        font-size: 35px;
+        width: 628px;
+    }
+    .learn_title h2{
+        text-align: left;
+        width: 550px;
+    }
+    .learn_img {
+        margin: 0;
+        margin-top: -200px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 700px) {
+    .container_learn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .learn_text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .learn_title {
+        width: 600px;
+    }
+    .learn_title h2{
+        text-align: center;
+    }
+    .learn_img {
+        margin-top: 0px;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .learn_title h2{
+        font-size: 30px;
+        width: 388px;
+        margin-left: 88px;
+        line-height: 28px;
+    }
+}

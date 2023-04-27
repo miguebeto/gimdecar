@@ -2,6 +2,6 @@
   "defaultLocale": "es",
   "locales": ["es", "en"],
   "pages": {
-    "*": ["footer", "nav", "home", "languages","talent"]
+    "*": ["footer", "nav", "home", "languages","talent", "comments"]
   }
 }

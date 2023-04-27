@@ -1,8 +1,11 @@
 .container{
-    margin-top: -100px;
-    background-image: url("/images/talento/background-talent.png");
+    margin-top: -85px;
+    background-image: linear-gradient(180deg, rgba(254,250,244,0) 68%, rgba(33,31,22,1) 100%), url("/images/talento/background-talent.png");
     background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
     width: 100%;
+    padding-bottom: 100px;
 }
 
 .grid{
@@ -18,7 +21,7 @@
 }
 
 .title h2{
-    line-height: 65px;
+    line-height: 56px;
     padding-left: 50px;
     color: #FFFFFF;
     width: 300px;
@@ -27,9 +30,9 @@
 }
 .title p{
     color: #FFFFFF;
-    font-size: 18px;
+    font-size: 22px;
     padding-left: 50px;
-    width: 320px;
+    width: 360px;
     margin-top: -20px;
 }
 
@@ -50,7 +53,7 @@
 }
 
 .search_grade{
-    padding-left: 215px;
+    padding-left: 50px;
 }
 .search_grade input{
     background-color: #f1ebe0;
@@ -84,6 +87,23 @@
 }
 
 /* RESPONSIVE */
+@media (max-width: 1920px) {
+    .title{
+        margin-left: 165px;
+    }
+}
+@media (max-width: 1620px) {
+    .title{
+        margin-left: 0;
+        padding-left: 165px;
+    }
+}
+@media (max-width: 1440px) {
+    .title{
+        padding-top: 140px;
+        padding-left: 165px;
+    }
+}
 @media (max-width: 1080px) {
     .image img{
         margin-top: -50px;
@@ -116,10 +136,11 @@
         width: 80%;
     }
     .title h2{
-        font-size: 40px;
+        font-size: 30px;
+        line-height: 30px;
     }
     .title p{
-        font-size: 14px;
+        font-size: 12px;
     }
     .search_grade{
         padding-left: 40px;

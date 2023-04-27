@@ -16,12 +16,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
 
 .card_general {
     margin-top: 40px;
 }
+
 
 .content_control {
     margin-top: 42px;
@@ -32,7 +32,7 @@
 
 .controllers {
     display: inline-block;
-    z-index: 999;
+    z-index: 900;
 }
 
 .controllers a {

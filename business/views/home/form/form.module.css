@@ -25,6 +25,19 @@
     padding: 20px;
     border: 2px solid #681319;
 }
+.form input::placeholder{
+    color: #681319;
+}
+
+.form select{
+    height: 40px;
+    border-radius: 30px;
+    width: 100% !important;
+    height: 60px;
+    padding: 20px;
+    border: 2px solid #681319;
+    color: #681319;
+}
 
 
 .inputs{
@@ -67,6 +80,6 @@
 
 @media (max-width: 530px) {
     .form_container{
-        width: 90%;
+        width: 280px;
     }
 }
