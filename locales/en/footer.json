@@ -1,0 +1,25 @@
+{
+    "about": {
+        "title": "About Us",
+        "description": "We are an institution with more than 30 years has been the union between academia, spirituality and love."
+    },
+    "contact":{
+        "title": "Contact",
+        "address": "Pie de la Popa Calle 29D #20-83",
+        "place": "Cartagena de Indias info@gimdecar.edu.co ",
+        "schedule": {
+            "hours": "8:00 am a 4:00 pm",
+            "name": "Horario de atención"
+        },
+        "phone1": "(+57) 690 9670",
+        "phone2": "(+57) 643 6465"
+    },
+    "social": {
+        "title": "Social Networks"
+    },
+    "legacy": {
+        "title": "Policy",
+        "policy": "Terms and Conditions",
+        "nit": "NIT. 122..."
+    }
+}

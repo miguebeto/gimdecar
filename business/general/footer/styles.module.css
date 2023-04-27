@@ -2,14 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f2ebe1;
     height: 100%;
-    padding: 40px 60px 120px 60px;
-    max-width: 90%;
-    width: 960px;
+    padding: 40px 60px 120px 130px;
+    width: 100%;
 }
 
 .general {
+    margin-top: 100px;
     width: 1200px;
     height: 100%;
     display: grid;
@@ -18,8 +17,41 @@
     padding: 0 0px;
 }
 
+.general2 {
+    margin-top: 100px;
+    width: 1200px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    padding: 0 0px;
+}
+
+.content_logo{
+    display: flex;
+}
+.image_logo{
+    padding-top: 20px;
+}
+.gym{
+    padding-left: 10px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    height: 250px;
+}
+
+.banner_img {
+    margin-right: -20rem;
+    width: 100%;
+}
+
 .general h2 {
-    font-size: 15px;
+    font-size: 20px;
     color: #68131a;
     font-weight: bold;
     margin-bottom: 30px;
@@ -29,6 +61,21 @@
     font-size: 14px;
     color: #68131a;
     margin: 0;
+    width: 200px;
+}
+
+.general2 h2 {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.general2 p {
+    font-size: 14px;
+    color: #ffffff;
+    margin: 0;
+    width: 200px;
 }
 
 .infoUbi {
@@ -38,6 +85,11 @@
 }
 
 .itenUbi {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.itenUbi2 {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -57,13 +109,36 @@
     transition: 1s;
 }
 
+.itenUbi2 i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    font-size: 25px;
+    border-radius: 100%;
+    color: #000000;
+    margin: 0;
+    transition: 1s;
+}
+
 .itenUbi i:hover {
-    background-color: #151B2B;
-    color: #58BDC9;
-    border: 1px solid #58BDC9;
+    background-color: #C1272D;
+    color: #ffffff;
+    border: 2px solid #C1272D;
+}
+.itenUbi2 i:hover {
+    background-color: #C1272D;
+    color: #ffffff;
+    border: 2px solid #C1272D;
 }
 
 .social {
+    display: flex;
+    gap: 15px;
+}
+.social2 {
     display: flex;
     gap: 15px;
 }
@@ -88,17 +163,45 @@
     border-radius: 100%;
     transition: 1s;
 }
+.social2 i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #000000;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 100%;
+    transition: 1s;
+}
 
 .social i:hover {
-    background-color: #151B2B;
-    color: #58BDC9;
-    border: 2px solid #58BDC9;
+    background-color: #C1272D;
+    color: #ffffff;
+    border: 2px solid #C1272D;
+}
+.social2 i:hover {
+    background-color: #C1272D;
+    color: #ffffff;
+    border: 2px solid #C1272D;
+}
+
+.container_policy p:hover{
+    text-decoration: underline;
+    font-weight: 600;
 }
 
 @media (max-width: 1022px) {
     .general {
         display: flex;
         flex-wrap: wrap;
+        margin-top: 150px;
+    }
+    .general2 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 150px;
     }
 
     .content_1 {
@@ -108,13 +211,36 @@
 
 
 @media (max-width: 767px) {
-    .general {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 50px;
-    }
 
     .content_1 {
         width: 100%;
+    }
+    .sounds{
+        width: 50%;
+    }
+    .general{
+        margin-top: 0;
+        padding-top: 130px;
+    }
+    .general2{
+        margin-top: 0;
+        padding-top: 130px;
+    }
+    .footer{
+        padding: 20px;
+    }
+}
+
+@media (max-width: 530px) {
+    .general{
+        margin-top: 0;
+        padding-top: 130px;
+    }
+    .general2{
+        margin-top: 0;
+        padding-top: 130px;
+    }
+    .footer{
+        padding: 20px;
     }
 }

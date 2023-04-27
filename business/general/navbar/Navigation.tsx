@@ -2,33 +2,15 @@ import Link from "next/link";
 import styles from "./Navigation.module.css";
 import Image from "next/image";
 import { useState } from "react";
-
-const menuItems = [
-  {
-    text: "Home",
-    href: "/",
-  },
-  {
-    text: "Home2",
-    href: "/home2",
-  },
-  {
-    text: "Home3",
-    href: "/home3",
-  },
-  {
-    text: "Home4",
-    href: "/home4",
-  },
-  {
-    text: "Home5",
-    href: "/home5",
-  },
-];
+import { useRouter } from "next/router";
+import useTranslation from "next-translate/useTranslation";
 
 const Navigation = () => {
+  const { t, lang } = useTranslation("nav");
+  const menuItems = t<any>("menuItems", {}, { returnObjects: true });
   const [icon, setIcon] = useState("bx bx-menu-alt-right");
-  const [menu, setMenu] = useState(styles.menu);
+  const [menu, setMenu] = useState<any>(styles.menu);
+  const router = useRouter();
 
   const handleMenu = () => {
     if (icon === "bx bx-menu-alt-right") {
@@ -45,37 +27,114 @@ const Navigation = () => {
       <div className={styles.general}>
         <div className={styles.logo}>
           <Link href="/">
-            <Image
-              src={"/images/gimdecar-logo.png"}
+            <img
+              width={50}
+              height={50}
+              src={`/images/${
+                router.asPath === "/idiomas"
+                  ? "gimdecar-logo-blanco.png"
+                  : "gimdecar-logo.png"
+              }`}
               alt={"logo Gimdecar"}
-              width={60}
-              height={60}
+              title="logo_gimdecar"
             />
           </Link>
         </div>
 
         <div className={menu}>
           <ul className={styles.navigation}>
-            {menuItems.map(({ text, href }) => (
-              <div className={styles.buttom_menu} key={href}>
-                <Link href={href}>{text}</Link>
+            <div onClick={handleMenu} className={styles.botonMovil2}>
+              <div>
+                <Link href="#">
+                  <i className={icon}></i>
+                </Link>
               </div>
-            ))}
+            </div>
+
+            {menuItems
+              .filter((item: any) => item.active === true)
+              .map((item: any, index: number) => (
+                <div className={styles.listButtons} key={index}>
+                  <Link href={item.href}>
+                    {router.asPath === "/idiomas" ? (
+                      <div
+                        className={
+                          router.asPath === item.href
+                            ? styles.active
+                            : styles.button_menu_idiomas
+                        }
+                      >
+                        {item.text}
+                      </div>
+                    ) : (
+                      <div
+                        className={
+                          router.asPath === item.href
+                            ? styles.active
+                            : styles.button_menu
+                        }
+                      >
+                        {item.text}
+                      </div>
+                    )}
+                  </Link>
+                </div>
+              ))}
+
+            <div
+              className={
+                router.asPath === "/idiomas"
+                  ? styles.social_network_idiomas
+                  : styles.social_network
+              }
+            >
+              <ul className={styles.icons}>
+                <a
+                  href="https://www.instagram.com/gimdecar/"
+                  target="_blank"
+                  title="Social Media"
+                >
+                  <img src="images/instagram.png" alt="" />
+                </a>
+                <a
+                  href="https://www.facebook.com/Gimdecar"
+                  target="_blank"
+                  title="Social Media"
+                >
+                  <img src="/images/facebook.png" alt="" />
+                </a>
+                <div className={styles.nav_pay}>
+                  <a href="https://portalpagos.davivienda.com/#/comercio/6819/CORPORACION%20GIMDECAR" target="_blank" title="pay">
+                  <img src="/images/coin.png" alt="" />
+                  </a>
+                </div>
+                <a href="/" title="Español">
+                  <img
+                    src="/images/icons/spanish_icon.png"
+                    alt="Español"
+                    width={25}
+                    height={25}
+                    title="Español"
+                  />
+                </a>
+                <a href="/en" title="English">
+                  <img
+                    src="/images/icons/english_icon.png"
+                    alt="English"
+                    width={25}
+                    height={25}
+                    title="English"
+                  />
+                </a>
+              </ul>
+            </div>
           </ul>
         </div>
-
-        <div className={styles.social_network}>
-          <ul className={styles.navigation}>
-            <i className="bx bxl-instagram"></i>
-            <i className="bx bxl-facebook"></i>
-            <i className="bx bxl-tiktok"></i>
-          </ul>
-          <div>
-            <div onClick={handleMenu} className={styles.botonMovil}>
-              <Link href="#">
-                <i className={icon}></i>
-              </Link>
-            </div>
+        <div>
+          <div onClick={handleMenu} className={styles.botonMovil}>
+            <Link href="#">
+              <i className={icon}></i>
+            </Link>
           </div>
         </div>
       </div>

@@ -2,36 +2,39 @@ import Link from "next/link";
 import styles from "./styles.module.css";
 import Image from "next/image";
 
-const Ubication = () => {
+const Ubication = ({ translate }: any) => {
   return (
     <div className={styles.main_title_ubication}>
       <div className={styles.main_title_container}>
-        <h1 className={styles.title_ubication}>Nuestra Ubicación</h1>
-        <Image
-          className={styles.home_tasks}
-          src="/images/tasks.png"
-          alt="Planet"
-          width={500}
-          height={560}
-        />
+        <h2 className={styles.title_ubication}>
+          {translate("section2.title")}
+        </h2>
       </div>
       <div className={styles.main_description_container}>
         <div className={styles.main_description_text}>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Perferendis, quis fugit. Optio eos dolore ullam blanditiis
-          </p>
-          <div className={styles.buttom_menu_ubication}>
-            <Link href="/">Leer más</Link>
-          </div>
+          <p>{translate("section2.description")}</p>
+          <Link
+            href="https://maps.app.goo.gl/VU1sjzzFQfcENueA7?g_st=ic"
+            title="Ubication"
+          >
+            <a target="_blank">
+              <div className={styles.button_menu_ubication}>
+                <i className="bx bx-map"></i>&nbsp;
+                {translate("section2.button")}
+              </div>
+            </a>
+          </Link>
         </div>
-        <Image
-          className={styles.home_planet}
-          src="/images/planet.png"
-          alt="Planet"
-          width={400}
-          height={400}
-        />
+        <div className={styles.container_img}>
+          <img
+            className={styles.home_planet}
+            src="/images/planet.png"
+            alt="Planet"
+            width={400}
+            height={400}
+            title="Planet"
+          />
+        </div>
       </div>
     </div>
   );

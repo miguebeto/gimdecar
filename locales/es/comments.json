@@ -1,0 +1,61 @@
+{
+    "home":[
+        {
+            "image": "/images/comments/user-default.png",
+            "name":"Juan Amaya",
+            "comment": "Una institución educativa que forma estudiantes humanística y académicamente, en un ambiente de sana convivencia y apoyados en valores, promoviendo así el desarrollo de capacidades intelectuales, comunicativas, artísticas, tecnológicas y deportivas, de conformidad con los lineamientos curriculares y los signos de los tiempos."
+        },
+        {
+            "image": "/images/comments/user-default.png",
+            "name":"Ana Bossa",
+            "comment": "Excelente Institución, buena calidad y buen trato. Andrés Escobar."
+        },
+        {
+            "image": "/images/comments/user-default.png",
+            "name":"Carmen Díaz",
+            "comment": "Genial!! Nuestras niñas y niños se ven bellos , súper felices, esas caritas hermosas es el reflejo de lo que sienten en su corazón. Gracias Gimdecar por estás actividades que hacen que nuestros hijos fortalezcan sus lazos de amistad y se diviertan mucho aprendiendo. 🤩🥳😍😍💕"
+        }
+    ],
+    "espacios":[
+        {
+            "image": "/images/comments/user-default.png",
+            "name":"Juan Amaya",
+            "comment": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+            "button": "Inglés"
+        },
+        {
+            "image": "/images/comments/user-default.png",
+            "name":"Ana Bossa",
+            "comment": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+            "button": "Francés"
+        },
+        {
+            "image": "/images/comments/user-default.png",
+            "name":"Carmen Díaz",
+            "comment": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+            "button": "Portugues"
+        }
+    ],
+    "talento":[
+        {
+            "image": "/images/comments/user-default.png",
+            "name":"Nubia González"  ,
+            "comment": "Una institución educativa que forma estudiantes humanística y académicamente, en un ambiente de sana convivencia y apoyados en valores, promoviendo así el desarrollo de capacidades intelectuales, comunicativas, artísticas, tecnológicas y deportivas, de conformidad con los lineamientos curriculares y los signos de los tiempos."
+        },
+        {
+            "image": "/images/comments/user-default.png",
+            "name":"Daniela Nuñez",
+            "comment": "Estoy muy agradecida con Gimdecar. Son una institución muy comprometida con la educación de los estudiantes y siempre con el amor"
+        },
+        {
+            "image": "/images/comments/user-default.png",
+            "name":"Carmen Díaz",
+            "comment": "Genial!! Nuestras niñas y niños se ven bellos , súper felices, esas caritas hermosas es el reflejo de lo que sienten en su corazón. Gracias Gimdecar por estás actividades que hacen que nuestros hijos fortalezcan sus lazos de amistad y se diviertan mucho aprendiendo. 🤩🥳😍😍💕"
+        },
+        {
+            "image": "/images/comments/user-default.png",
+            "name":"Andrés Escobar",
+            "comment": "Excelente Institución, buena calidad y buen trato."
+        }
+    ]
+}

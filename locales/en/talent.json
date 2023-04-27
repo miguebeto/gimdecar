@@ -1,0 +1,106 @@
+{
+    "general": {
+        "button": "Leer más",
+        "title": "Talent"
+    },
+    "section1": {
+        "title": "Teaching in love for your children from the first years",
+        "button": "Sign up your child"
+    },
+    "talents": {
+        "section1":{
+            "title": "Education with love",
+            "description": "Our teachers have vocation and commitment to the first generations",
+            "placeholder": "Buscar grado",
+            "grades": {
+                "list": ["1ER GRADO", "2DO GRADO", "3ER GRADO", "4TO GRADO", "5TO GRADO", "6TO GRADO"],
+                "button": "Leer más",
+                "items": [
+                    {
+                        "id": "0",
+                        "title": "PRIMER GRADO",
+                        "description": "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
+                        "iamge": "",
+                        "link": "#"
+                    },
+                    {
+                        "id": "1",
+                        "title": "SEGUNDO GRADO",
+                        "description": "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
+                        "iamge": "",
+                        "link": "#"
+                    },
+                    {
+                        "id": "2",
+                        "title": "TERCER GRADO",
+                        "description": "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
+                        "iamge": "",
+                        "link": "#"
+                    },
+                    {
+                        "id": "3",
+                        "title": "CUARTO GRADO",
+                        "description": "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
+                        "iamge": "",
+                        "link": "#"
+                    },
+                    {
+                        "id": "4",
+                        "title": "QUINTO GRADO",
+                        "description": "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
+                        "iamge": "",
+                        "link": "#"
+                    },
+                    {
+                        "id": "5",
+                        "title": "SEXTO GRADO",
+                        "description": "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
+                        "iamge": "",
+                        "link": "#"
+                    }
+                ]
+            },
+            "gallery": [
+                {
+                    "img": "/images/talento/slider/IMG_1.jpg",
+                    "alt": "Books",
+                    "title": "Books"
+                },
+                {
+                    "img": "/images/talento/slider/IMG_2.jpg",
+                    "alt": "Books",
+                    "title": "Books"
+                },
+                {
+                    "img": "/images/talento/slider/IMG_3.jpg",
+                    "alt": "Books",
+                    "title": "Books"
+                },
+                {
+                    "img": "/images/talento/slider/IMG_4.jpg",
+                    "alt": "Books",
+                    "title": "Books"
+                },
+                {
+                    "img": "/images/talento/slider/IMG_5.jpg",
+                    "alt": "Books",
+                    "title": "Books"
+                }
+            ]
+        },
+        "section2":{
+            "title": "Get to know our preschool headquarters",
+            "description": "Our educational community is willing and passionate about being positive tools for you and your family.",
+            "button": "play video"
+        }
+    },
+    "spaces": {
+        "title1": "Get to know our preschool headquarters",
+        "description": "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
+        "button": "play video"
+    },
+    "comments": {
+        "title": "Our parents",
+        "title2": "comment"
+    }
+}

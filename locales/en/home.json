@@ -1,0 +1,42 @@
+{
+    "general": {
+        "button": "Read more",
+        "title": "Colegio Gimnasio Moderno: Gimdecar."
+    },
+    "section1": {
+        "title": "We are Gimdecar",
+        "description": "We are the school where love, academia and spirituality come together.",
+        "description2": "Our educational community is willing and passionate to be positive tools for you and your family.",
+        "button": "Contact us"
+    },
+    "section2": {
+        "title": "Gimdecar is closer to you",
+        "description": "The perfect place for the education of your children. We are in the neighborhood Pie de la Popa, in Cartagena de Indias.",
+        "button": "Our location"
+    },
+    "section3": {
+        "title": "Live is to learn",
+        "description": "We accompany the student in his learning process, through presentation, production and practice.",
+        "button": "Learn more"
+    },
+    "section4": {
+        "title": "Testimonials",
+        "description": "Highest quality training",
+        "description2": "Nuestra comunidad educativa está dispuesta y apasionada por ser herramientas positivas para ti y tu familia.",
+        "button": "Contact us",
+        "wsmessage": "Find out more "
+    },
+    "section5": {
+        "title": "Does your child have musical skills?",
+        "description": "In Gimdecar we have a music room for your children to develop their talent"
+    },
+    "form": {
+        "dpto": "Department",
+        "city": "City",
+        "address": "Address",
+        "name": "Name",
+        "phone": "Phone/Cell",
+        "email": "E-mail",
+        "button": "Quote"
+    }
+}

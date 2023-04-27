@@ -1,0 +1,142 @@
+.container{
+    margin-top: -170px;
+    /* background-image: url("/images/talento/back-talent-white.png");
+    background-size: 100% 100%; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 0.5fr 0.6fr 1.5fr;
+}
+
+.modal_view{
+    z-index: 999;
+}
+
+.title{
+    padding-top: 100px;
+    z-index: 900;
+}
+.title h3{
+    padding-left: 40px;
+    line-height: 55px;
+    margin-top: 20px;
+    font-size: 60px;
+    font-weight: 900;
+    color: #211F16;
+    width: 510px;
+}
+.title p{
+    margin-top: -50px;
+    font-size: 24px;
+    padding-left: 40px;
+    width: 80%;
+}
+
+.title button {
+    padding: 15px;
+    color: white;
+    font-weight: 800;
+    background-color: #8A1720;
+    border-radius: 6px;
+    font-size: 20px;
+    border: 0;
+    box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.47);
+    cursor: pointer;
+    transition: 1s;
+    width: 250px;
+    margin-left: 40px;
+}
+
+.title button:hover {
+    transition: 1s;
+    background-color: #C1272D;
+    transform: translateY(-7px);
+}
+
+.sofa img{
+    margin-top: -40px;
+    margin-left: -150px;
+    width: 650px;
+}
+
+.search_grade{
+    padding-left: 40px;
+}
+.search_grade input{
+    background-color: #f1ebe0;
+    width: 60%;
+    height: 38.5px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.47);
+}
+.search_grade button{
+    cursor: pointer;
+    height: 37.5px;
+    width: 60px;
+    margin-left: -5px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-end-end-radius: 5px;
+    background-color: #8a1720;
+    text-align: center;
+    padding-bottom: 36.5px;
+    transition: 0.8s;
+    box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.47);
+}
+.search_grade button img{
+    position: relative;
+    top: 6px;
+}
+.search_grade button:hover{
+    transition: 1s;
+    background-color: #C1272D;
+    transform: translateX(-5px);
+}
+
+/* MODAL */
+
+/* RESPONSIVE */
+@media (max-width: 1130px) {
+    .sofa img{
+        width: 500px;
+    }
+}
+@media (max-width: 950px) {
+    .sofa img{
+        margin-top: 150px;
+        width: 300px;
+    }
+}
+@media (max-width: 710px) {
+    .title h3{
+        font-size: 40px;
+        width: 350px
+    }
+    .sofa img{
+        padding-left: 70px;
+    }
+}
+@media (max-width: 540px) {
+    .title h3{
+        font-size: 35px;
+        width: 74%;
+        line-height: 30px;
+    }
+    .title p {
+        margin-top: -30px;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-bottom: 50px;
+    }
+    .sofa{
+        display: none;
+    }
+}
