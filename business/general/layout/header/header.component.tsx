@@ -17,6 +17,14 @@ export default function HeaderComponent(){
 
             <link rel="canonical" href="https://gimdecar.edu.co" />
             <a
+                href="https://gimdecar.phidias.co/"
+                target="_blank"
+                title="Phidias"
+                className={styles.float_phidias}
+            >
+                <img src="/images/phidias.jfif" alt="" width={60} height={60} />
+            </a>
+            <a
                 href="https://portalpagos.davivienda.com/#/comercio/6819/CORPORACION%20GIMDECAR"
                 target="_blank"
                 title="Pagar"
