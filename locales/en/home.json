@@ -15,8 +15,9 @@
         "button": "Our location"
     },
     "section3": {
-        "title": "Live is to learn",
-        "description": "We accompany the student in his learning process, through presentation, production and practice.",
+        "title": "Life is to learn",
+        "subtitle": "We teach to life:",
+        "description": "We accompany the student in his learning process through an active, conceptual pedagogical model with a social approach that considers the student craftsman of his own knowledge.",
         "button": "Learn more"
     },
     "section4": {
@@ -27,7 +28,7 @@
         "wsmessage": "Find out more "
     },
     "section5": {
-        "title": "Does your child have musical skills?",
+        "title": "¿Your child has communication skills?",
         "description": "In Gimdecar we have a music room for your children to develop their talent"
     },
     "form": {
@@ -37,6 +38,6 @@
         "name": "Name",
         "phone": "Phone/Cell",
         "email": "E-mail",
-        "button": "Quote"
+        "button": "Send Info"
     }
 }

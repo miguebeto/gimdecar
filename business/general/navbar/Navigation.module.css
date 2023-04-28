@@ -6,7 +6,7 @@
 .button_menu {
     padding: 16px 32px;
     color: white !important;
-    font-weight: 600;
+    font-weight: 900;
     background-color: #681319 !important;
     border-radius: 6px;
     font-size: 15px;
@@ -17,7 +17,7 @@
 .button_menu_idiomas{
     padding: 16px 40px;
     color: #681319 !important;
-    font-weight: 600;
+    font-weight: 900;
     background-color: #FFFFFF !important;
     border-radius: 6px;
     font-size: 15px;
@@ -27,11 +27,6 @@
 
 .navigation {
     padding: 0px !important;
-}
-
-.menu {
-    margin: 0px 1rem;
-
 }
 
 .button_menu:hover {
@@ -55,7 +50,7 @@
 
 .menu ul {
     display: flex;
-    gap: 20px;
+    gap: 10px;
 }
 
 .icons{
@@ -120,8 +115,8 @@
 .active {
     background-color: #C1272D;
     color: #FFFFFF;
-    padding: 16px 40px;
-    font-weight: 600;
+    padding: 16px 16px;
+    font-weight: 900;
     border-radius: 6px;
     font-size: 15px;
     transition: 1s;
@@ -141,7 +136,7 @@
     padding: 6px 6px;
 }
 
-@media (max-width: 1022px) {
+@media (max-width: 1150px) {
     .general {
         justify-content: space-between;
         padding: 20px 50px;
@@ -266,9 +261,3 @@
     }
 }
 
-@media (max-width: 1268px) {
-    .general{
-        gap: 12px;
-    }
-
-}

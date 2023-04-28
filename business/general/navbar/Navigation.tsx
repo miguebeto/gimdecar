@@ -103,11 +103,6 @@ const Navigation = () => {
                 >
                   <img src="/images/facebook.png" alt="" />
                 </a>
-                <div className={styles.nav_pay}>
-                  <a href="https://portalpagos.davivienda.com/#/comercio/6819/CORPORACION%20GIMDECAR" target="_blank" title="pay">
-                  <img src="/images/coin.png" alt="" />
-                  </a>
-                </div>
                 <a href="/" title="Español">
                   <img
                     src="/images/icons/spanish_icon.png"

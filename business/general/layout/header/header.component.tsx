@@ -19,10 +19,10 @@ export default function HeaderComponent(){
             <a
                 href="https://portalpagos.davivienda.com/#/comercio/6819/CORPORACION%20GIMDECAR"
                 target="_blank"
-                title="Pay_button"
+                title="Pagar"
                 className={styles.float_pay}
             >
-            <img src="/images/pay.png" alt="pagar" title='Pagar'></img>
+                <i className='bx bx-dollar-circle' ></i>
             </a>
             <a
                 href={lang === 'en' ? wsp_eng : wsp_esp}

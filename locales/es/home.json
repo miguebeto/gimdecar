@@ -15,9 +15,10 @@
         "button": "Nuestra ubicación"
     },
     "section3": {
-        "title": "Aprender es vivir",
-        "description": "Acompañamos al estudiante en su proceso de aprendizaje, a través de la presentación, producción y práctica.",
-        "button": "Saber mas"
+        "title": "Vivir es aprender",
+        "subtitle": "Enseñamos a vivir",
+        "description": "Acompañamos al estudiante en su proceso de aprendizaje a través de un modelo pedagógico activo, conceptual con enfoque social que considera al estudiante artesano de su propio conocimiento.",
+        "button": "Más información"
     },
     "section4": {
         "title": "Testimonios",
@@ -27,7 +28,7 @@
         "wsmessage": "Más información aquí"
     },
     "section5": {
-        "title": "¿Tu hijo tiene habilidades musicales?",
+        "title": "¿Tu hijo tiene habilidades comunicativas?",
         "description": "En Gimdecar tenemos salón de música para que tus niños desarrollen su talento"
     },
     "form": {

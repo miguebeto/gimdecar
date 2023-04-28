@@ -39,7 +39,7 @@
 .main_title_ubication {
     color: white;
     padding: 2rem;
-    width: 50%;
+    width: 20%;
     background-color: #681319;
     border-radius: 11px;
     border: 6px solid white;
@@ -101,22 +101,22 @@
     justify-content: center;
     background-image: url('/images/resource2-3.png');
     background-size: cover;
-    height: 500px;
+    height: 580px;
 }
 
 .main_title_benefits {
     color: white;
-    padding: 1rem;
-    width: 21rem;
+    width: 35%;
     border-radius: 10px;
     margin-top: 140px;
     text-align: right;
     margin-right: 7rem;
     margin-left: -24px;
-    padding-top: 100px;
+    padding-top: 60px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    padding-right: 10px ;
 }
 
 .description{
@@ -125,7 +125,7 @@
 }
 
 .description p{
-    width: 306px;
+    width: 95%;
 }
 
 .image_kid{
@@ -276,6 +276,13 @@
     .image_kid{
         width: 100%;
     }
+    .main_title_benefits {
+        width: 100%;
+        padding-right: 6px ;
+    }
+    .center_content{
+        height: 540px;
+    }
 }
 
 @media (max-width: 740px) {
@@ -293,6 +300,7 @@
     .main_title_container {
         width: 100%;
     }
+    
 }
 
 @media (max-width: 612px) {
@@ -309,6 +317,12 @@
     .title_ubication {
         font-size: 38px;
     }
+    .center_content{
+        height: 420px;
+    }
+    .center_content{
+        height: 450px;
+    }
 }
 
 @media (max-width: 550px) {
@@ -322,6 +336,9 @@
     .title_ubication{
         font-size: 38px;
         line-height: 36px;
+    }
+    .center_content{
+        height: 450px;
     }
 }
 
@@ -340,6 +357,9 @@
         font-size: 36px;
         line-height: 32px;
     }
+    .center_content{
+        height: 440px;
+    }
 }
 
 @media (max-width: 440px) {
@@ -349,4 +369,16 @@
     .main_cotainer_title {
         width: 240px;
     }
+    .button_menu_ubication {
+        width: 156px;
+        padding: 7px;
+    }
+    .main_title_benefits {
+        padding: 1rem;
+        padding-top: 40px;
+    }
+    .center_content{
+        height: 500px;
+    }
+    
 }
