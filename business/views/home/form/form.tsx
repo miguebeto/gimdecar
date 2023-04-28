@@ -137,7 +137,6 @@ const Form = (props: any) => {
             />
           </div>
           <div>
-          
             <button className={styles.button_cotizar} onClick={saveForm} type="submit"><i className='bx bx-mail-send' ></i>&nbsp;{props.translate('form.button')}</button>
           </div>
         </div>

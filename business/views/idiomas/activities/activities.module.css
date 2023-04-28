@@ -21,6 +21,11 @@
     width: 430px;
     margin-left:175px;
 }
+
+.container_text {
+    width: 100%;
+}
+
 .title h2{
     font-size: 60px;
     font-weight: 900;
@@ -32,7 +37,7 @@
 }
 .description{
     margin-top: -38px;
-    width: 320px;
+    width: 90%;
     color: #681319;
     font-size: 19px;
     font-weight: 400;
@@ -107,5 +112,8 @@
     }
     .description p{
         padding-top: 10px;
+    }
+    .container_text {
+        width: 80%;
     }
 }

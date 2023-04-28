@@ -8,7 +8,7 @@ export default function ActivitiesComponent({ translate }: any) {
       <div className={styles.container}>
         <div className={styles.grid}>
           <div className={styles.title}>
-            <div>
+            <div className={styles.container_text}>
               <div>
                 <h2>{translate("section2.title")}</h2>
               </div>
