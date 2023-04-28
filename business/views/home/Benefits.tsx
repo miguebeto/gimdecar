@@ -12,7 +12,7 @@ const Benefits = ({ translate }: any) => {
             {translate("section3.title")}
           </h2>
           <div className={styles.description}>
-            <p>{translate("section3.description")}</p>
+            <p><strong>{translate("section3.subtitle")} </strong>{translate("section3.description")}</p>
           </div>
 
           <Link href="#form-seccion" className={styles.button_menu_benefits}>

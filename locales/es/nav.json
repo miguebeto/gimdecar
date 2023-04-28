@@ -4,23 +4,28 @@
   "button": "Pagos",
   "menuItems": [
     {
-      "text": "Inicio",
+      "text": "INICIO",
       "href": "/",
       "active": true
     },
     {
-      "text": "Sobre Nosotros",
+      "text": "QUIENES SOMOS",
+      "href": "/espacios",
+      "active": true
+    },
+    {
+      "text": "IDIOMAS",
       "href": "/idiomas",
       "active": true
     },
     {
-      "text": "Idiomas",
-      "href": "/idiomas",
-      "active": true
-    },
-    {
-      "text": "Talento",
+      "text": "ACADEMIA",
       "href": "/talento",
+      "active": true
+    },
+    {
+      "text": "PAGOS",
+      "href": "https://portalpagos.davivienda.com/#/comercio/6819/CORPORACION%20GIMDECAR",
       "active": true
     },
     {

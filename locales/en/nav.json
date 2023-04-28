@@ -4,18 +4,28 @@
   "button": "Pay",
   "menuItems": [
     {
-      "text": "Home",
+      "text": "HOME",
       "href": "/",
       "active": true
     },
     {
-      "text": "Languages",
+      "text": "ABOUT US",
+      "href": "/about",
+      "active": true
+    },
+    {
+      "text": "LANGUAGES",
       "href": "/idiomas",
       "active": true
     },
     {
-      "text": "Talent",
+      "text": "ACADEMY",
       "href": "/talento",
+      "active": true
+    },
+    {
+      "text": "PAYMENTS",
+      "href": "https://portalpagos.davivienda.com/#/comercio/6819/CORPORACION%20GIMDECAR",
       "active": true
     },
     {
