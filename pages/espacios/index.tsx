@@ -36,8 +36,7 @@ const Home: NextPage = () => {
                 src="/images/children.png"
                 alt="children"
                 title="children"
-                width={600}
-                height={250}
+                height={300}
               />
             </div>
           </div>
