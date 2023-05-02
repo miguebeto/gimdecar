@@ -22,7 +22,7 @@ export default function HeaderComponent(){
                 title="Phidias"
                 className={styles.float_phidias}
             >
-                <img src="/images/phidias.jfif" alt="" width={60} height={60} />
+                <img src="/images/phidias.jfif" alt="phidias" title='phidias' width={60} height={60} />
             </a>
             <a
                 href="https://portalpagos.davivienda.com/#/comercio/6819/CORPORACION%20GIMDECAR"

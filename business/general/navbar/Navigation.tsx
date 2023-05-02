@@ -94,14 +94,14 @@ const Navigation = () => {
                   target="_blank"
                   title="Social Media"
                 >
-                  <img src="images/instagram.png" alt="" />
+                  <img src="images/instagram.png" alt="instagram" title="instagram" />
                 </a>
                 <a
                   href="https://www.facebook.com/Gimdecar"
                   target="_blank"
                   title="Social Media"
                 >
-                  <img src="/images/facebook.png" alt="" />
+                  <img src="/images/facebook.png" alt="facebook" title="facebook" />
                 </a>
                 <a href="/" title="Español">
                   <img

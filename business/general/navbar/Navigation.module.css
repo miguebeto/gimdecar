@@ -4,7 +4,7 @@
 }
 
 .button_menu {
-    padding: 16px 32px;
+    padding: 16px 20px;
     color: white !important;
     font-weight: 900;
     background-color: #681319 !important;
@@ -15,7 +15,7 @@
 }
 
 .button_menu_idiomas{
-    padding: 16px 40px;
+    padding: 16px 20px;
     color: #681319 !important;
     font-weight: 900;
     background-color: #FFFFFF !important;
@@ -61,9 +61,16 @@
     width: 30px;
     height: 30px;
 }
+
+.icons img:hover {
+    width: 40px;
+    height: 40px;
+}
+
 .botonMovil {
     display: none;
 }
+
 .botonMovil2 {
     display: none;
 }
