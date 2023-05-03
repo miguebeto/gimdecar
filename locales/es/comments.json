@@ -20,20 +20,32 @@
         {
             "image": "/images/comments/user-default.png",
             "name":"Juan Amaya",
-            "comment": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
-            "button": "Inglés"
+            "comment": "Sobre los conocimientos que trae el estudiante a modo de motivación para el desarrollo de la temática.",
+            "button": "Indagación"
         },
         {
             "image": "/images/comments/user-default.png",
             "name":"Ana Bossa",
-            "comment": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
-            "button": "Francés"
+            "comment": "De conceptos construidos por los estudiantes en el primer momento, esto se puede desarrollar en grupo o individual, cada estudiante utilizando sus competencias de análisis, deducción, reflexión, solución de problemas, investigación, síntesis (procesos mentales), representa y comunica sus propios conceptos a partir de una experiencia propia de aprendizaje.",
+            "button": "Socialización"
         },
         {
             "image": "/images/comments/user-default.png",
             "name":"Carmen Díaz",
-            "comment": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
-            "button": "Portugues"
+            "comment": "La situación de aprendizajes y conocimientos evidenciados por los estudiantes; transversalizando esos conocimientos y esos contenidos con otras áreas afines.",
+            "button": "Desarrollo de contenidos"
+        },
+        {
+            "image": "/images/comments/user-default.png",
+            "name":"Carmen Díaz",
+            "comment": " ​​Los estudiantes luego del proceso desarrollado son capaces de crear conceptos afines a la teoría orientada.",
+            "button": "Construcción del conocimiento"
+        },
+        {
+            "image": "/images/comments/user-default.png",
+            "name":"Carmen Díaz",
+            "comment": "Es el elemento de comprobación final de aprendizajes orientados (logros, indicadores de logros y competencias).",
+            "button": "La evaluación"
         }
     ],
     "talento":[

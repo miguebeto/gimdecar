@@ -26,19 +26,31 @@
             "image": "/images/comments/user-default.png",
             "name":"Juan Amaya",
             "comment": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
-            "button": "Inglés"
+            "button": "Indagación"
         },
         {
             "image": "/images/comments/user-default.png",
             "name":"Ana Bossa",
             "comment": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
-            "button": "Francés"
+            "button": "Socialización"
         },
         {
             "image": "/images/comments/user-default.png",
             "name":"Carmen Díaz",
             "comment": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
-            "button": "Portugues"
+            "button": "Desarrollo de contenidos"
+        },
+        {
+            "image": "/images/comments/user-default.png",
+            "name":"Carmen Díaz",
+            "comment": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+            "button": "Construcción del conocimiento"
+        },
+        {
+            "image": "/images/comments/user-default.png",
+            "name":"Carmen Díaz",
+            "comment": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
+            "button": "La evaluación"
         }
     ],
     "talento":[

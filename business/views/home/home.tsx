@@ -3,7 +3,6 @@ import MainTitle from "./MainTitle";
 import styles from "./styles.module.css";
 import Benefits from "./Benefits";
 import SliderComments from "./slider/slider.component";
-import Image from "next/image";
 import Form from "./form/form";
 import ReadyLearnComponenet from "../../content/readyLearn/readyLearn.component";
 import StarsRatings from "../../../business/content/ratings/ratinsStars.component";
@@ -82,7 +81,7 @@ const HomePage = () => {
         lang={lang}
       />
       <div className={styles.background_content2}></div>
-      <ReadyLearnComponenet />
+      <ReadyLearnComponenet url="/images/microphone.png" title="section5.title" description="section5.description" section="home"/>
     </>
   );
 };

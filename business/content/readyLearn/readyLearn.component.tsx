@@ -2,8 +2,8 @@ import Image from "next/image";
 import styles from "./ready.module.css"
 import useTranslation from "next-translate/useTranslation";
  
-export default function ReadyLearnComponenet() {
-    const { t, lang } = useTranslation("home");
+export default function ReadyLearnComponenet({url, title, description, section}:any) {
+    const { t, lang } = useTranslation(section);
 
     return (
         <>
@@ -12,21 +12,21 @@ export default function ReadyLearnComponenet() {
                     <div className={styles.text}>
                         <div>
                             <div>
-                                <h4>{t("section5.title")}</h4>
+                                <h4>{t(title)}</h4>
                             </div>
                             <div>
-                                <p>{t("section5.description")}</p>
+                                <p>{t(description)}</p>
                             </div>
                         </div>
                     </div>
                     <div className={styles.beats}>
                         <img
-                            src="/images/beats.png"
-                            width={500}
-                            height={520}
-                            alt="Diademas"
-                            title="Diademas"
-                        />
+                            src={url}
+                            width={400}
+                            height={300}
+                            alt="logo_banner"
+                            title="logo_banner"
+                        /> 
                     </div>
                 </div>
             </div>

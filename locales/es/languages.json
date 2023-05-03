@@ -35,5 +35,9 @@
         "description2": "Nuestra comunidad educativa está dispuesta y apasionada por ser herramientas positivas para ti y tu familia.",
         "button": "Contáctanos",
         "wsmessage": "Más información aquí"
+    },
+    "section5": {
+        "title": "Conoce nuestra ludoteca",
+        "description": "Tenemos un espacio ideal para que nuestros niños aprendan a través de herramientas lúdicas. Conoce nuestra ludoteca."
     }
 }

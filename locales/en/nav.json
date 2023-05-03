@@ -10,11 +10,11 @@
     },
     {
       "text": "ABOUT US",
-      "href": "/about",
+      "href": "/espacios",
       "active": true
     },
     {
-      "text": "LANGUAGES",
+      "text": "ENGLISH",
       "href": "/idiomas",
       "active": true
     },

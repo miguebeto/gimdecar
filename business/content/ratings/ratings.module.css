@@ -5,6 +5,10 @@
     align-items: center;
 }
 
+.ratings h4{
+    color: #000000;
+}
+
 .ratings div p{
     font-size: 18px;
     color: #681319;
