@@ -1,0 +1,42 @@
+{
+    "general": {
+        "title": "Colegio Gimnasio Moderno: Gimdecar.",
+        "title2": "About Us",
+        "description": "Our purpose is that your children are formed with a comprehensive education, while feeling loved and cared for. Our students will develop in a healthy, innovative and loving way the skills, abilities and talents they need to face a competitive society."
+    },
+    "section1": {
+        "title": "Education with the highest standards of academic quality",
+        "description1": "We are quality certified by ICONTEC.",
+        "description2": "Our Saber Tests are A+ since 2009 and we are ranked 14th in Bolivar."
+    },
+    "section2": {
+        "title": "Our pedagogical model ",
+        "description": "We do this with disruptive educational methodologies, focused on the application of projects, projection and excellence, through the teaching of values and the development of a well-founded spirituality.   Our pedagogical model has 5 elements:"
+    },
+    "section3": [
+        {
+            "image": "/images/idiomas/slider/students.jpg",
+            "title": "Visita al restaurante",
+            "title2": "La casona",
+            "title3": "El Colegio",
+            "description": "Nuestros estudiantes tuvieron la oportunidad de ordenar su desayuno favorito en inglés y conversar entre amigos."
+        },
+        {
+            "image": "/images/idiomas/slider/patricio.jpg",
+            "title": "Celebración",
+            "title2": "San",
+            "title3": "Patricio",
+            "description": "A través de presentaciones creativas y trabajo en equipo los niños y niñas desarrollaron sus habilidades en inglés."
+        }
+    ],
+    "section4": {
+        "title": "MISSION",
+        "description": "The Gimnasio Moderno de Cartagena School Corporation trains students from pre-school to high school, humanistically and academically qualified for the formation of a spiritual being and with competencies that allow them to live in today's society.",
+        "title2": "VISION",
+        "description2": "We will be recognized as an educational instance that forms students with multiple competencies for the development of a solid integral formation in the culture of social responsibility, qualified and with English language skills and other competencies that science, technology, information technology and coexistence provide."
+    },
+    "section5": {
+        "title": "It's time to get moving!",
+        "description": "Enroll your child in their favorite sport! In our sports clubs we appreciate the skills and abilities of your children that lead them to set goals and become more disciplined. We have football, basketball, skating and volleyball."
+    }
+}

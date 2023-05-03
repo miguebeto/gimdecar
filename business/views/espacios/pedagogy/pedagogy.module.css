@@ -1,0 +1,150 @@
+.slider_languaje {
+    margin-bottom: 100px;
+}
+
+.background4 {
+    display: flex;
+    background-image:url("/images/resource2_1.png");
+    background-size: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    color: #8A1720;
+    font-size: 12px;
+    padding-top: 320px;
+    margin-top: -250px;
+    justify-content: center;
+}
+
+.learn_subtitle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.learn_subtitle h2 {
+    line-height: 55px;
+    margin-top: 20px;
+    font-size: 45px;
+    font-weight: 900;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+}
+
+.learn_subtitle p {
+    width: 70%;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.learn_subtitle_img {
+    text-align: center;
+}
+
+.learn_subtitle_img img{
+    width: 80%;
+}
+
+.container_text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.container_text p {
+    text-align: justify;
+}
+
+.container_mision {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_vision {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media (max-width: 1400px) {
+    .learn_subtitle {
+        width: 100%;
+    }
+    .learn_subtitle h2{
+        font-size: 58px;
+        width: 60%;
+        margin-left: 54px;
+        line-height: 57px;
+        text-align: center;
+    }
+    .container_text {
+        display: grid;
+        grid-template-columns: 45% auto;
+        margin-top: 50px;
+    }
+    .container_text p, 
+    .container_text h2 {
+        color: #000000;
+    }
+    
+}
+
+@media (max-width: 786px) {
+    .learn_subtitle h2{
+        font-size: 37px;
+        width: 96%;
+        margin-left: 10px;
+        line-height: 32px;
+        color: #000000;
+    }
+    .learn_subtitle p{
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        color: #000000;
+    }
+    .learn_subtitle_img{
+        width: 96%;
+    }
+    .container_text {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+    }
+}
+
+@media (max-width: 486px) {
+    .learn_subtitle h2{
+        font-size: 30px;
+        width: 100%;
+        margin-left: 0px;
+        line-height: 28px;
+        color: #000000;
+    }
+    .learn_subtitle_img img{
+        object-fit: contain;
+        height: auto;
+    }
+    .background4 {
+        padding-top: 274px;
+        padding-bottom: 42px;
+    }
+    .learn_subtitle p {
+        width: 90%;
+        font-size: 18px;
+        text-align: center;
+        color: #000000;
+    }
+}

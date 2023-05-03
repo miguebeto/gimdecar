@@ -36,7 +36,7 @@ const Home: NextPage = () => {
         <HelpComponent />
         <div className={styles.learn}>
           <div className={styles.top}>
-            <ReadyLearnComponenet />
+            <ReadyLearnComponenet url="/images/books.png" title="section5.title" description="section5.description"/>
           </div>
         </div>
       </Layout>

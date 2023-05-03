@@ -1,0 +1,42 @@
+{
+    "general": {
+        "title": "Colegio Gimnasio Moderno: Gimdecar.",
+        "title2": "Sobre Nosotros",
+        "description": "Nuestro propósito es que tus hijos sean formados con educación integral, mientras se sienten amados y atendidos. Nuestros estudiantes desarrollarán de manera sana, innovadora y amorosa las habilidades, las capacidades y los talentos que necesitan para enfrentarse a una sociedad competitiva."
+    },
+    "section1": {
+        "title": "Educación con los más altos estándares de calidad académica",
+        "description1": "Contamos con la certificación de calidad por ICONTEC.",
+        "description2": "Nuestras Pruebas Saber son A + desde el 2009 y ocupamos el puesto n° 14 en Bolívar."
+    },
+    "section2": {
+        "title": "Nuestro modelo pedagógico",
+        "description": "Lo hacemos con metodologías educativas disruptivas, enfocadas en la aplicación de proyectos, la proyección y la excelencia, a través de la enseñanza de valores y el desarrollo de una espiritualidad bien fundamentada.   Nuestro modelo pedagógico cuenta con 5 elementos:"
+    },
+    "section3": [
+        {
+            "image": "/images/idiomas/slider/students.jpg",
+            "title": "Visita al restaurante",
+            "title2": "La casona",
+            "title3": "El Colegio",
+            "description": "Nuestros estudiantes tuvieron la oportunidad de ordenar su desayuno favorito en inglés y conversar entre amigos."
+        },
+        {
+            "image": "/images/idiomas/slider/patricio.jpg",
+            "title": "Celebración",
+            "title2": "San",
+            "title3": "Patricio",
+            "description": "A través de presentaciones creativas y trabajo en equipo los niños y niñas desarrollaron sus habilidades en inglés."
+        }
+    ],
+    "section4": {
+        "title": "MISIÓN",
+        "description": "El Colegio Corporación Gimnasio Moderno de Cartagena, forma estudiantes desde el nivel pre-escolar hasta la media, humanística y académicamente cualificados para la formación de un ser espiritual y con competencias que le permitan convivir en la sociedad actual.",
+        "title2": "VISIÓN",
+        "description2": "Seremos reconocidos, como una instancia educativa que forma estudiantes con múltiples competencias para el desarrollo de una sólida formación integral en la cultura de la responsabilidad social, cualificados y con competencias del dominio del idioma inglés y otras que le aporta la ciencia, la tecnología, la informática y la convivencia."
+    },
+    "section5": {
+        "title": "¡Es hora de moverse!",
+        "description": "¡Inscríbe a tu hijo en su deporte favorito! En nuestros clubes deportivos apreciamos las habilidades y capacidades de tus hijos que los llevan a trazarse metas y ser más disciplinados. Tenemos football, basketball, patinaje, volleyball."
+    }
+}

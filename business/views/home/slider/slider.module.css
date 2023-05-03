@@ -8,6 +8,7 @@
     width: 800px;
 }
 
+
 .learn_title h2 {
     line-height: 55px;
     margin-top: 20px;
@@ -25,7 +26,7 @@
 .general .grid .content_slider {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
+    margin-top: 40px;
 }
 .general2 .grid .content_slider {
     display: grid;
@@ -64,7 +65,7 @@
     margin-top: -20px;
 }
 .general button{
-    width: 120px;
+    width: 150px;
     height: 40px;
     background-color: #F1EBE0;
     color: #8A1720;

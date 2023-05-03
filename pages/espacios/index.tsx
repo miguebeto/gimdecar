@@ -9,42 +9,31 @@ import Image from "next/image";
 import HelpComponent from "../../business/content/help/help.component";
 import Slider2Comments from "../../business/views/home/slider/slider2.component";
 import useTranslation from "next-translate/useTranslation";
+import Standard from "../../business/views/espacios/standard/standard.component";
+import Pedagogy from "../../business/views/espacios/pedagogy/pedagogy.component";
+import Head from "next/head";
 
 const Home: NextPage = () => {
   const { t, lang } = useTranslation("idiomas");
   return (
     <>
       <Layout>
+        <Head>
+          <title>{t("general.title")}</title>
+        </Head>
         <div className={styles.title}>
           <h1>
-            Hora de <span>aprender</span>
+            {t("general.title2")}
           </h1>
         </div>
-        <div className={styles.slider_languaje}>
-          <Slider2Comments />
-        </div>
-        <Learn />
-        <div className={styles.learn_title}>
-          <h2>Qué quieres que tu hijo aprenda?</h2>
-        </div>
+        <Learn translate={t}/>
+        <Standard translate={t}/>
         <SliderComments id="espacios" />
-        <div className={styles.background4}>
-          <div className={styles.learn_subtitle}>
-            <h2>El mejor ambiente para aprendizaje</h2>
-            <div className={styles.learn_subtitle_img}>
-              <img
-                src="/images/children.png"
-                alt="children"
-                title="children"
-                height={300}
-              />
-            </div>
-          </div>
-        </div>
+        <Pedagogy translate={t}/>
         <div className={styles.upfooter}>
           <StarsRatings/>
           <HelpComponent/>
-          <ReadyLearnComponenet/>
+          <ReadyLearnComponenet url="/images/game.png" title="section5.title" description="section5.description" section="idiomas"/>
         </div>
       </Layout>
     </>
