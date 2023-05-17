@@ -18,6 +18,14 @@
     line-height: 52px;
     margin-left: 62px;
 }
+
+.titleButton p {
+    color: #FFFFFF;
+    width: 84%;
+    font-size: 20px;
+    margin-left: 66px;
+}
+
 .titleButton button{
     padding: 10px;
     color: white;

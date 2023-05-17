@@ -110,4 +110,11 @@
         padding-top: 8px;
         font-size: 13px;
     }
+    .beats{
+        top: 70px;
+    }
+    .beats img{
+        width: 200px;
+        height: 150px;
+    }
 }

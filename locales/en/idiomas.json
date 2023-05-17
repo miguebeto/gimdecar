@@ -7,7 +7,7 @@
     "section1": {
         "title": "Education with the highest standards of academic quality",
         "description1": "We are quality certified by ICONTEC.",
-        "description2": "Our Saber Tests are A+ since 2009 and we are ranked 14th in Bolivar."
+        "description2": "As an institution, we are ranked 14th in the Saber Pro tests at the national level. We have maintained our A+ rating since 2009. Our performance in the test results is the highest with respect to the scores obtained by other schools in the country."
     },
     "section2": {
         "title": "Our pedagogical model ",
@@ -23,6 +23,13 @@
         },
         {
             "image": "/images/idiomas/slider/patricio.jpg",
+            "title": "Celebración",
+            "title2": "San",
+            "title3": "Patricio",
+            "description": "A través de presentaciones creativas y trabajo en equipo los niños y niñas desarrollaron sus habilidades en inglés."
+        },
+        {
+            "image": "/images/idiomas/slider/children.jpg",
             "title": "Celebración",
             "title2": "San",
             "title3": "Patricio",

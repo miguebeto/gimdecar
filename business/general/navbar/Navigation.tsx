@@ -31,7 +31,7 @@ const Navigation = () => {
               width={50}
               height={50}
               src={`/images/${
-                router.asPath === "/idiomas"
+                router.asPath === "/english"
                   ? "gimdecar-logo-blanco.png"
                   : "gimdecar-logo.png"
               }`}
@@ -56,7 +56,7 @@ const Navigation = () => {
               .map((item: any, index: number) => (
                 <div className={styles.listButtons} key={index}>
                   <Link href={item.href}>
-                    {router.asPath === "/idiomas" ? (
+                    {router.asPath === "/english" ? (
                       <div
                         className={
                           router.asPath === item.href
@@ -83,7 +83,7 @@ const Navigation = () => {
 
             <div
               className={
-                router.asPath === "/idiomas"
+                router.asPath === "/english"
                   ? styles.social_network_idiomas
                   : styles.social_network
               }
@@ -94,16 +94,24 @@ const Navigation = () => {
                   target="_blank"
                   title="Social Media"
                 >
-                  <img src="images/instagram.png" alt="instagram" title="instagram" />
+                  <img
+                    src="/images/instagram.png"
+                    alt="instagram"
+                    title="instagram"
+                  />
                 </a>
                 <a
                   href="https://www.facebook.com/Gimdecar"
                   target="_blank"
                   title="Social Media"
                 >
-                  <img src="/images/facebook.png" alt="facebook" title="facebook" />
+                  <img
+                    src="/images/facebook.png"
+                    alt="facebook"
+                    title="facebook"
+                  />
                 </a>
-                <a href="/" title="Español">
+                <a href={"/es" + router.asPath} title="Español">
                   <img
                     src="/images/icons/spanish_icon.png"
                     alt="Español"
@@ -112,7 +120,7 @@ const Navigation = () => {
                     title="Español"
                   />
                 </a>
-                <a href="/en" title="English">
+                <a href={"/en" + router.asPath} title="English">
                   <img
                     src="/images/icons/english_icon.png"
                     alt="English"

@@ -47,9 +47,9 @@ export default function SpacesComponent(props: any) {
           </div>
           <div className={styles.sofa}>
             <img
-              src="/images/talento/mueble.png"
-              alt="mueble bonito"
-              title="mueble bonito"
+              src="/images/talento/children.png"
+              alt="children"
+              title="children"
             />
           </div>
         </div>
@@ -63,10 +63,10 @@ export default function SpacesComponent(props: any) {
           contentLabel="Example Modal"
         >
           <video
-            src="/video/gimdecar.mp4"
+            src="/video/daniela.MP4"
             controls
             height={500}
-            width={500}
+            width={800}
             autoPlay
           ></video>
         </Modal>

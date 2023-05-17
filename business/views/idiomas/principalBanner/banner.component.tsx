@@ -9,6 +9,7 @@ export default function BannerComponent({ translate }: any) {
         <div className={styles.grid}>
           <div className={styles.titleButton}>
             <h1>{translate("section1.title")}</h1>
+            <p>{translate("section1.description")}</p>
             <div className={styles.button}>
               <Link href="/#form-seccion">
                 <button>{translate("section1.button")}</button>

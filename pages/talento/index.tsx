@@ -11,9 +11,11 @@ import StarsRatings from "../../business/content/ratings/ratinsStars.component";
 import HelpComponent from "../../business/content/help/help.component";
 import ReadyLearnComponenet from "../../business/content/readyLearn/readyLearn.component";
 import Head from "next/head";
+import ClassComponent2 from "../../business/views/idiomas/classSamples/class.component2";
 
 const Home: NextPage = () => {
   const { t, lang } = useTranslation("talent");
+  const items_slider = t<any>("section3", {}, { returnObjects: true });
 
   return (
     <>
@@ -23,6 +25,7 @@ const Home: NextPage = () => {
         </Head>
         <TitleTalent translate={t} />
         <GradesComponent translate={t} />
+        <ClassComponent2 translate={t} items_slider={items_slider}/>
         <NewTalentsComponent translate={t} />
         <SpacesComponent translate={t} />
         <SliderComments
@@ -36,7 +39,7 @@ const Home: NextPage = () => {
         <HelpComponent />
         <div className={styles.learn}>
           <div className={styles.top}>
-            <ReadyLearnComponenet url="/images/books.png" title="section5.title" description="section5.description"/>
+            <ReadyLearnComponenet url="/images/books.png" title="section5.title" description="section5.description" section="talent"/>
           </div>
         </div>
       </Layout>

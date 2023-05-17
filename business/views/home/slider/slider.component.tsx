@@ -67,7 +67,7 @@ export default function SliderComments(props: any) {
               <h2>{props.title}</h2>
             </div>
           ) : null}
-          {props.id === "idiomas" ? (
+          {props.id === "english" ? (
             <div className={styles.title_languages}>
               <h2>
                 <span>{props.span} </span>
@@ -91,7 +91,7 @@ export default function SliderComments(props: any) {
             </div>
             <Swiper
               modules={[Navigation, Pagination, A11y]}
-              autoplay={{ delay: 10000 }}
+              autoplay={{ delay: 4000 }}
               onBeforeInit={(swiper) => {
                 swiperRef.current = swiper;
               }}

@@ -3,17 +3,13 @@
     justify-content: center;
     width: 100%;
     padding-bottom: 250px;
-    /* background-color: #211f16; */
+    margin-bottom: -160px;
     background-image: url('/images/talento/base2.png');
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
-    margin-top: -5px;
 }
 
-.content{
-    margin-top: -250px;
-}
 
 .grid{
     margin-top: -150px;

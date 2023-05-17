@@ -32,7 +32,7 @@ export default function Slider2Comments(props:any) {
     >
       <div
         className={"container " + styles.cardSliderBritish}
-        style={{ backgroundColor: "#FFFFFF" }}
+        style={{ backgroundColor: "#FFFFFF", backgroundImage: `url(${item.image})` }}
       >
         <div className={styles.info}>
           <p className={styles.descriptions}>
@@ -41,9 +41,7 @@ export default function Slider2Comments(props:any) {
         </div>
       </div>
       <div className={styles.button_slider_container}>
-          <Link href="/" className={styles.button_menu_slider}>
             <button >{item.button}</button>
-          </Link>
       </div>
     </SwiperSlide>
   ));
@@ -52,7 +50,7 @@ export default function Slider2Comments(props:any) {
       <div className={styles.general}>
         <div className={styles.grid}>
           {props.id === "home" ? <div className={styles.title_home}><h2>{props.title}</h2></div> : null }
-          {props.id === "idiomas" ? <div className={styles.title_languages}><h2><span>{props.span} </span>{props.title}</h2></div> : null}
+          {props.id === "english" ? <div className={styles.title_languages}><h2><span>{props.span} </span>{props.title}</h2></div> : null}
           {props.id === "talento" ? <div className={styles.title_home}><h2 style={{color:'#211F16', fontWeight: '900', marginTop: '-40px', lineHeight: '60px'}}>{props.title} <br/>{props.titlebr}</h2></div>: null}
           <div className={styles.content_slider}>
             <div className={styles.prev_btn}>
@@ -62,7 +60,7 @@ export default function Slider2Comments(props:any) {
             </div>
             <Swiper
               modules={[Navigation, Pagination, A11y]}
-              autoplay={{ delay: 10000 }}
+              autoplay={{ delay: 4000 }}
               onBeforeInit={(swiper) => {
                 swiperRef.current = swiper;
               }}

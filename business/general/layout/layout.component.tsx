@@ -10,7 +10,7 @@ export default function Layout({ children }: any) {
   console.log(router.asPath);
 
   const background = {
-    backgroundColor: router.asPath === "/idiomas" ? "#681319" : "#f2ebe1",
+    backgroundColor: router.asPath === "/english" ? "#681319" : "#f2ebe1",
   };
   return (
     <>

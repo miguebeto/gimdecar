@@ -11,6 +11,7 @@ const Form = (props: any) => {
     product,
     cel,
     email,
+    email_user,
     dpto,
     formState,
     onInputChange,
@@ -22,16 +23,18 @@ const Form = (props: any) => {
     product: "",
     cel: "",
     email: "",
+    email_user: ""
   });
 
   const dataForm = {
     name: name,
-    email: email,
+    email: "info@gimdecar.edu.co",
     address: address,
     city: city,
     product: product,
     cel: cel,
-    dpto: dpto
+    dpto: dpto,
+    email_user: email_user
   }
 
   const saveForm = (ev: any) => {
@@ -104,17 +107,6 @@ const Form = (props: any) => {
             />
           </div>
 
-          {/*<div className={styles.inputs}>*/}
-          {/*  <input*/}
-          {/*    required*/}
-          {/*    type="text"*/}
-          {/*    placeholder="Producto"*/}
-          {/*    value={product}*/}
-          {/*    onChange={onInputChange}*/}
-          {/*    name="product"*/}
-          {/*  />*/}
-          {/*</div>*/}
-
           <div className={styles.inputs}>
             <input
               required
@@ -131,9 +123,9 @@ const Form = (props: any) => {
               required
               type="text"
               placeholder={props.translate('form.email')}
-              value={email}
+              value={email_user}
               onChange={onInputChange}
-              name="email"
+              name="email_user"
             />
           </div>
           <div>

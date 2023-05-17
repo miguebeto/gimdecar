@@ -5,12 +5,13 @@
     },
     "section1": {
         "title": "Learn about our English immersion program",
+        "description": "The main objective of the project is to facilitate the process of appropriation of the foreign language English in the student population of Gimnasio Moderno de Cartagena.",
         "button": "More Information"
     },
     "section2": {
         "title": "Learning English has never been so fun",
-        "description": "Enroll your child in our English training program",
-        "button": "Sign up your child"
+        "description": "To achieve this objective, we consider as main strategies, the design and implementation of modules in English for the suggested curriculum (natural sciences, mathematics, technologies and those to be added later).",
+        "button": "Contact us"
     },
     "section3": [
         {
@@ -26,6 +27,20 @@
             "title2": "San",
             "title3": "Patricio",
             "description": "Through creative presentations and teamwork, children developed their skills in English."
+        },
+        {
+            "image": "/images/idiomas/slider/children.jpg",
+            "title": "Celebration",
+            "title2": "Valentine's",
+            "title3": "Day",
+            "description": "We celebrated Valentine's Day with a special program where they socialized and presented different activities."
+        },
+        {
+            "image": "/images/idiomas/slider/easter.jpg",
+            "title": "Celebración",
+            "title2": "Easter",
+            "title3": "Day",
+            "description": "Tradition is a good opportunity to practice our English skills."
         }
     ],
     "section4": {

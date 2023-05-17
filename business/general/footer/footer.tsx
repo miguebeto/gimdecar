@@ -44,10 +44,17 @@ export default function Footer() {
             <h2>{t("contact.title")}</h2>
             <div className={styles.infoUbi}>
               <div className={styles.itenUbi}>
-                <i className="bx bx-mail-send"></i>
+                <i className="bx bx-location-plus"></i>
                 <div className={styles.info}>
                   <p>
                     {t("contact.address")} <br />
+                  </p>
+                </div>
+              </div>
+              <div className={styles.itenUbi}>
+                <i className="bx bx-mail-send"></i>
+                <div className={styles.info}>
+                  <p>
                     {t("contact.place")}
                   </p>
                 </div>

@@ -109,7 +109,8 @@
 .swiper div p {
     font-size: 16px;
     color: #FFFF;
-    font-weight: bold;
+    font-weight: 600;
+    background: #0000004d;
 }
 .swiper2 div p {
     font-size: 16px;
@@ -225,7 +226,7 @@
     /* margin-bottom: -1rem; */
 }
 .cardSliderBritish{
-    background-image: url("/images/british.png");
+    /* background-image: url("/images/socializacion.jpg"); */
     background-size: 100%, 100%;
     border-radius: 20px;
     /* height: 320px;

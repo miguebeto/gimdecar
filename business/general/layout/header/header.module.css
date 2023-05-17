@@ -75,3 +75,14 @@
     transform: translateY(-10px) translateX(-10px);
 }
 
+
+
+@media (max-width: 768px) {
+    .float_phidias img,
+    .float_pay,
+    .float {
+        width: 50x;
+        right: 10px;
+    }
+
+}

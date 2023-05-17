@@ -5,12 +5,13 @@
     },
     "section1": {
         "title": "Conoce nuestro programa de inmersión de inglés",
+        "description": "El proyecto tiene como objetivo principal facilitar el proceso de apropiación de la lengua extranjera inglés en la población estudiantil del Gimnasio Moderno de Cartagena.",
         "button": "Quiero saber más"
     },
     "section2": {
         "title": "Aprender inglés nunca fue tan divertido",
-        "description": "Inscríbe a tu hijo en nuestro programa de formación en inglés",
-        "button": "Inscribe a tu hijo"
+        "description": "Para llevar a cabo este objetivo, consideramos como estrategias principales, el diseño y realización de módulos en inglés para el currículo sugerido (ciencias naturales, matemáticas, tecnologías y las  que se añadan posteriormente).",
+        "button": "Contáctanos"
     },
     "section3": [
         {
@@ -26,6 +27,20 @@
             "title2": "San",
             "title3": "Patricio",
             "description": "A través de presentaciones creativas y trabajo en equipo los niños y niñas desarrollaron sus habilidades en inglés."
+        },
+        {
+            "image": "/images/idiomas/slider/children.jpg",
+            "title": "Celebración",
+            "title2": "San",
+            "title3": "Valentine",
+            "description": "Celebramos el día de San Valentine con un programa especial donde socializaron y presentaron distintas actividades."
+        },
+        {
+            "image": "/images/idiomas/slider/easter.jpg",
+            "title": "Celebración",
+            "title2": "Easter",
+            "title3": "Day",
+            "description": "La tradición es una buena oportunidad para practicar nuestras habilidades de inglés."
         }
     ],
     "section4": {

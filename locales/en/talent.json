@@ -7,6 +7,26 @@
         "title": "Teaching in love for your children from the first years",
         "button": "Sign up your child"
     },
+    "section3": [
+        {
+            "image": "/images/talento/slider/prescolar.jpg",
+            "title": "PREESCOLAR",
+            "description": "We offer a safe and nurturing environment where children can explore, discover and learn through play and interaction with their peers and environment.",
+            "button": "Contact us"
+        },
+        {
+            "image": "/images/talento/slider/primaria.jpg",
+            "title": "PRIMARIA",
+            "description": "We are happy to contribute to the development of children in primary school.",
+            "button": "Contact us"
+        },
+        {
+            "image": "/images/talento/slider/secundaria.JPG",
+            "title": "SECUNDARIA",
+            "description": "Secondary education is fundamental for the development of a life project and preparation for university life.",
+            "button": "Contact us"
+        }
+    ],
     "talents": {
         "section1":{
             "title": "Education with love",
@@ -91,16 +111,20 @@
         "section2":{
             "title": "Get to know our preschool headquarters",
             "description": "Our educational community is willing and passionate about being positive tools for you and your family.",
-            "button": "play video"
+            "button": "play vídeo"
         }
     },
     "spaces": {
         "title1": "Get to know our preschool headquarters",
         "description": "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
-        "button": "play video"
+        "button": "play vídeo"
     },
     "comments": {
         "title": "Our parents",
         "title2": "comment"
+    },
+    "section5": {
+        "title": "Our education is of quality!",
+        "description": "We have ICONTEC certification. We are ranked 14th in the Saber Pro Tests at the National level."
     }
 }

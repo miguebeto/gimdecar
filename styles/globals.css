@@ -22,3 +22,7 @@ a {
 .ReactModal__Overlay {
   z-index: 1000;
 }
+
+.swiper-wrapper {
+  margin-bottom: 40px;
+}

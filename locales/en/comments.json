@@ -23,34 +23,34 @@
     ],
     "espacios":[
         {
-            "image": "/images/comments/user-default.png",
+            "image": "/images/indagacion.jpg",
             "name":"Juan Amaya",
-            "comment": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
-            "button": "Indagación"
+            "comment": "About the knowledge the student brings as a motivation for the development of the subject.",
+            "button": "Inquiry"
         },
         {
-            "image": "/images/comments/user-default.png",
+            "image": "/images/socializacion.jpg",
             "name":"Ana Bossa",
-            "comment": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
-            "button": "Socialización"
+            "comment": "From the concepts constructed by the students at the first moment either in group or individual, each student using their skills of analysis, deduction, reflection, problem solving, research, synthesis (mental processes)represents and communicates their own concepts from their own learning experience.",
+            "button": "Socialization"
         },
         {
-            "image": "/images/comments/user-default.png",
+            "image": "/images/desarrollo.jpg",
             "name":"Carmen Díaz",
-            "comment": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
-            "button": "Desarrollo de contenidos"
+            "comment": "After socialization, and starting from the learning situation and knowledge evidenced by the students; we translate that knowledge and those contents with other related areas.",
+            "button": "Content development"
         },
         {
-            "image": "/images/comments/user-default.png",
+            "image": "/images/construccion.JPG",
             "name":"Carmen Díaz",
-            "comment": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
-            "button": "Construcción del conocimiento"
+            "comment": "Students after the development process are able to create concepts related to oriented theory.",
+            "button": "Knowledge construction"
         },
         {
-            "image": "/images/comments/user-default.png",
+            "image": "/images/evaluacion.jpg",
             "name":"Carmen Díaz",
-            "comment": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.",
-            "button": "La evaluación"
+            "comment": "It is the final test element of oriented learning (achievements, indicators of achievement and competencies).",
+            "button": "Evaluation"
         }
     ],
     "talento":[

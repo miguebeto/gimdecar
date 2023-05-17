@@ -1,7 +1,11 @@
+import { useRouter } from "next/router";
 import styles from "./card.module.css";
+import Link from "next/link";
 
 export default function CardComponent(props: any) {
   // console.log("props => ",props.image)
+
+  const route = useRouter();
 
   return (
     <>
@@ -11,8 +15,7 @@ export default function CardComponent(props: any) {
             <div
               className={styles.video}
               style={{
-                backgroundImage:
-                  `url('${props.image}')`,
+                backgroundImage: `url('${props.image}')`,
               }}
             ></div>
           </div>
@@ -24,6 +27,13 @@ export default function CardComponent(props: any) {
             </h3>
             <div className={styles.description}>
               <p>{props.description}</p>
+            </div>
+            <div className={styles.button_slider}>
+              {route.asPath === "/talento" ? (
+                <Link href="/#form-seccion">
+                  <button>{props.button}</button>
+                </Link>
+              ) : null}
             </div>
           </div>
         </div>

@@ -24,7 +24,7 @@ export default function FormService(data:any){
                 html: "<h1>¡Nuevo Registro - GIMDECAR.COM!</h1>"
                     + "<p><strong>Información de la cita:</strong></p>"
                     + "<li>Nombre del empresario: " + `${data.name}` + "</li>"
-                    + "<li>Correo electrónico: " + `${data.email}` + "</li>"
+                    + "<li>Correo electrónico: " + `${data.email_user}` + "</li>"
                     + "<li>Teléfono: " + `${data.cel}` + "</li>"
                     + "<li>Producto: " + `${data.product}` + "</li>"
                     + "<li>Ciudad: " + `${data.city}` + "</li>"
@@ -49,5 +49,12 @@ export default function FormService(data:any){
         }
     }).catch(( e: any ) => {
         console.log(e);
+        Swal.fire(
+            {
+                title: '!Error!',
+                text: 'Inténtelo nuevamente o mas tarde',
+                icon: 'error'
+            }
+        )
     });
 }

@@ -7,6 +7,26 @@
         "title": "Enseñanza en amor para tus hijos desde los primeros años",
         "button": "Contáctanos"
     },
+    "section3": [
+        {
+            "image": "/images/talento/slider/prescolar.jpg",
+            "title": "PREESCOLAR",
+            "description": "Ofrecemos un ambiente seguro y acogedor donde los niños pueden explorar, descubrir y aprender a través del juego y la interacción con sus pares y entorno.",
+            "button": "Contáctanos"
+        },
+        {
+            "image": "/images/talento/slider/primaria.jpg",
+            "title": "PRIMARIA",
+            "description": "Nos sentimos felices de contribuir al desarrollo los niños y niñas en primaria.",
+            "button": "Contáctanos"
+        },
+        {
+            "image": "/images/talento/slider/secundaria.JPG",
+            "title": "SECUNDARIA",
+            "description": "La educación secundaria es fundamental para el desarrollo de proyecto de vida y preparación para la vida universitaria.",
+            "button": "Contáctanos"
+        }
+    ],
     "talents": {
         "section1":{
             "title": "Educación en amor",
@@ -91,16 +111,20 @@
         "section2":{
             "title": "Conoce nuestra sede de preescolar",
             "description": "Nuestra comunidad educativa está dispuesta y apasionada por ser herramientas positivas para ti y tu familia.",
-            "button": "ver video"
+            "button": "ver vídeo"
         }
     },
     "spaces": {
         "title1": "Inscríbe a tu hijo",
         "description": "Lorem ipsum dolor sit amet consectetuer adipiscing elit",
-        "button": "ver video"
+        "button": "ver vídeo"
     },
     "comments": {
         "title": "Nuestros papitos",
         "title2": "comentan"
+    },
+    "section5": {
+        "title": "¡Nuestra educación es de calidad!",
+        "description": "Tenemos certificación ICONTEC. Ocupamos el puesto 14 en las Pruebas Saber Pro a nivel Nacional."
     }
 }

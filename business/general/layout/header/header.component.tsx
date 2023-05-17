@@ -9,7 +9,7 @@ export default function HeaderComponent(){
     const wsp_eng = "https://wa.link/x5vco8";
 
     return(
-        <>
+        <div className={styles.container_header}>
             <Head>
                 <meta name="keywords" content={t('keywords')} />
                 <meta name="description" content={t('description')} />
@@ -41,6 +41,6 @@ export default function HeaderComponent(){
             >
                 <i className='bx bxl-whatsapp'></i>
             </a>
-        </>
+        </div>
     )
 }
